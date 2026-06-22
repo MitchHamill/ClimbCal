@@ -12,4 +12,5 @@ A simple alternative to the World Climbing Series provided calendar, that is bet
 - [ ] Collapse Info
 - [ ] Styles
 - [ ] Better README
+- [ ] HD Footer / Buy me a coffee link
 - [ ] Deploy
