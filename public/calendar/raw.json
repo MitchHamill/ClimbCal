@@ -1,0 +1,2637 @@
+[
+  {
+    "id": "mount-maunganui-speed",
+    "venue": {
+      "city": "Mount Maunganui",
+      "country": "New Zealand",
+      "timezone": "Pacific/Auckland"
+    },
+    "start": "2026-02-14T11:00:00",
+    "end": "2026-02-14T13:30:00",
+    "legs": [
+      {
+        "id": "mount-maunganui-speed",
+        "title": "World Climbing Oceania Championship Mount Maunganui 2026",
+        "links": [
+          {
+            "displayText": "Info sheet",
+            "accessibleText": "Info sheet",
+            "url": "https://ifsc.results.info/events/1491/infosheet",
+            "openInNewTab": true
+          },
+          {
+            "displayText": "Registrations",
+            "accessibleText": "Registrations",
+            "url": "https://ifsc.results.info/event/1491/registrations",
+            "openInNewTab": true
+          }
+        ],
+        "start": "2026-02-14T11:00:00",
+        "end": "2026-02-14T13:30:00",
+        "program": [
+          {
+            "discipline": "speed",
+            "name": "Women's & Men's Speed Qualification",
+            "start": "2026-02-14T11:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "speed",
+            "name": "Women's & Men's Speed Final",
+            "start": "2026-02-14T13:30:00",
+            "age": "open",
+            "ability": "open"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sydney-oceania-boulder",
+    "venue": {
+      "city": "Sydney",
+      "country": "Australia",
+      "timezone": "Australia/Sydney"
+    },
+    "start": "2026-02-28T10:00:00",
+    "end": "2026-03-01T15:00:00",
+    "legs": [
+      {
+        "id": "sydney-oceania-boulder",
+        "title": "World Climbing Oceania Series New South Wales 2026",
+        "links": [
+          {
+            "displayText": "Info sheet",
+            "accessibleText": "Info sheet",
+            "url": "https://ifsc.results.info/events/1523/infosheet",
+            "openInNewTab": true
+          },
+          {
+            "displayText": "Registrations",
+            "accessibleText": "Registrations",
+            "url": "https://ifsc.results.info/event/1523/registrations",
+            "openInNewTab": true
+          }
+        ],
+        "start": "2026-02-28T10:00:00",
+        "end": "2026-03-01T15:00:00",
+        "program": [
+          {
+            "discipline": "boulder",
+            "name": "Women's & Men's Boulder Qualification",
+            "start": "2026-02-28T10:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Women's & Men's Boulder Semi-final",
+            "start": "2026-03-01T09:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Women's & Men's Boulder Final",
+            "start": "2026-03-01T15:00:00",
+            "age": "open",
+            "ability": "open"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "meishan-boulder-lead-speed",
+    "venue": {
+      "city": "Meishan",
+      "country": "China",
+      "timezone": "Asia/Shanghai"
+    },
+    "start": "2026-04-08T09:30:00",
+    "end": "2026-04-12T20:00:00",
+    "legs": [
+      {
+        "id": "meishan-boulder-lead-speed",
+        "title": "World Climbing Asia Championship Meishan 2026",
+        "links": [
+          {
+            "displayText": "Info sheet",
+            "accessibleText": "Info sheet",
+            "url": "https://ifsc.results.info/events/1515/infosheet",
+            "openInNewTab": true
+          },
+          {
+            "displayText": "Registrations",
+            "accessibleText": "Registrations",
+            "url": "https://ifsc.results.info/event/1515/registrations",
+            "openInNewTab": true
+          }
+        ],
+        "start": "2026-04-08T09:30:00",
+        "end": "2026-04-12T20:00:00",
+        "program": [
+          {
+            "discipline": "boulder",
+            "name": "Women's Boulder Qualification",
+            "start": "2026-04-08T09:30:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Men's Boulder Qualification",
+            "start": "2026-04-08T16:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "speed",
+            "name": "Speed Qualification",
+            "start": "2026-04-09T09:30:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Women's & Men's Boulder Semi-final",
+            "start": "2026-04-09T15:30:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Women's Boulder Final",
+            "start": "2026-04-10T16:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Men's Boulder Final",
+            "start": "2026-04-10T19:30:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "lead",
+            "name": "Lead Qualification",
+            "start": "2026-04-11T13:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "speed",
+            "name": "Speed Final",
+            "start": "2026-04-11T19:30:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "lead",
+            "name": "Lead Semi-final",
+            "start": "2026-04-12T10:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "lead",
+            "name": "Women's Lead Final",
+            "start": "2026-04-12T18:30:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "lead",
+            "name": "Men's Lead Final",
+            "start": "2026-04-12T20:00:00",
+            "age": "open",
+            "ability": "open"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "soure-boulder",
+    "venue": {
+      "city": "Soure",
+      "country": "Portugal",
+      "timezone": "Europe/Lisbon"
+    },
+    "start": "2026-04-18T08:30:00",
+    "end": "2026-04-19T12:30:00",
+    "legs": [
+      {
+        "id": "soure-boulder",
+        "title": "World Climbing Europe Youth Series Soure 2026",
+        "links": [
+          {
+            "displayText": "Info sheet",
+            "accessibleText": "Info sheet",
+            "url": "https://ifsc.results.info/events/1494/infosheet",
+            "openInNewTab": true
+          },
+          {
+            "displayText": "Registrations",
+            "accessibleText": "Registrations",
+            "url": "https://ifsc.results.info/event/1494/registrations",
+            "openInNewTab": true
+          }
+        ],
+        "start": "2026-04-18T08:30:00",
+        "end": "2026-04-19T12:30:00",
+        "program": [
+          {
+            "discipline": "boulder",
+            "name": "Boulder Qualification",
+            "start": "2026-04-18T08:30:00",
+            "age": "u17",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Boulder Qualification",
+            "start": "2026-04-18T15:30:00",
+            "age": "u19",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Boulder Final",
+            "start": "2026-04-19T10:10:00",
+            "age": "u17",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Boulder Final",
+            "start": "2026-04-19T12:30:00",
+            "age": "u19",
+            "ability": "open"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "kaunas-boulder",
+    "venue": {
+      "city": "Kaunas",
+      "country": "Lithuania",
+      "timezone": "Europe/Vilnius"
+    },
+    "start": "2026-04-25T08:30:00",
+    "end": "2026-04-26T19:50:00",
+    "legs": [
+      {
+        "id": "kaunas-boulder",
+        "title": "World Climbing Europe Series Kaunas 2026",
+        "links": [
+          {
+            "displayText": "Info sheet",
+            "accessibleText": "Info sheet",
+            "url": "https://ifsc.results.info/events/1495/infosheet",
+            "openInNewTab": true
+          },
+          {
+            "displayText": "Registrations",
+            "accessibleText": "Registrations",
+            "url": "https://ifsc.results.info/event/1495/registrations",
+            "openInNewTab": true
+          }
+        ],
+        "start": "2026-04-25T08:30:00",
+        "end": "2026-04-26T19:50:00",
+        "program": [
+          {
+            "discipline": "boulder",
+            "name": "Men's Boulder Qualification",
+            "start": "2026-04-25T08:30:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Women's Boulder Qualification",
+            "start": "2026-04-25T16:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Women's & Men's Boulder Semi-final",
+            "start": "2026-04-26T12:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Men's Boulder Final",
+            "start": "2026-04-26T18:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Women's Boulder Final",
+            "start": "2026-04-26T19:50:00",
+            "age": "open",
+            "ability": "open"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "keqiao-boulder",
+    "venue": {
+      "city": "Keqiao",
+      "country": "China",
+      "timezone": "Asia/Shanghai"
+    },
+    "start": "2026-05-01T09:00:00",
+    "end": "2026-05-03T19:00:00",
+    "legs": [
+      {
+        "id": "keqiao-boulder",
+        "title": "World Climbing Series Keqiao 2026",
+        "links": [
+          {
+            "displayText": "Info sheet",
+            "accessibleText": "Info sheet",
+            "url": "https://ifsc.results.info/events/1524/infosheet",
+            "openInNewTab": true
+          },
+          {
+            "displayText": "Registrations",
+            "accessibleText": "Registrations",
+            "url": "https://ifsc.results.info/event/1524/registrations",
+            "openInNewTab": true
+          }
+        ],
+        "start": "2026-05-01T09:00:00",
+        "end": "2026-05-03T19:00:00",
+        "program": [
+          {
+            "discipline": "boulder",
+            "name": "Women's Boulder Qualification",
+            "start": "2026-05-01T09:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Men's Boulder Qualification",
+            "start": "2026-05-01T16:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Women's Boulder Semi-final",
+            "start": "2026-05-02T10:30:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Women's Boulder Final",
+            "start": "2026-05-02T19:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Men's Boulder Semi-final",
+            "start": "2026-05-03T10:30:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Men's Boulder Final",
+            "start": "2026-05-03T19:00:00",
+            "age": "open",
+            "ability": "open"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "wujiang-lead-speed",
+    "venue": {
+      "city": "Wujiang",
+      "country": "China",
+      "timezone": "Asia/Shanghai"
+    },
+    "start": "2026-05-08T09:00:00",
+    "end": "2026-05-10T20:00:00",
+    "legs": [
+      {
+        "id": "wujiang-lead-speed",
+        "title": "World Climbing Series Wujiang 2026",
+        "links": [
+          {
+            "displayText": "Info sheet",
+            "accessibleText": "Info sheet",
+            "url": "https://ifsc.results.info/events/1525/infosheet",
+            "openInNewTab": true
+          },
+          {
+            "displayText": "Registrations",
+            "accessibleText": "Registrations",
+            "url": "https://ifsc.results.info/event/1525/registrations",
+            "openInNewTab": true
+          }
+        ],
+        "start": "2026-05-08T09:00:00",
+        "end": "2026-05-10T20:00:00",
+        "program": [
+          {
+            "discipline": "lead",
+            "name": "Men's & Women's Lead Qualification",
+            "start": "2026-05-08T09:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "lead",
+            "name": "Men's & Women's Lead Semi-final",
+            "start": "2026-05-09T10:30:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "lead",
+            "name": "Men's Lead Final",
+            "start": "2026-05-09T19:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "lead",
+            "name": "Women's Lead Final",
+            "start": "2026-05-09T20:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "speed",
+            "name": "Men's & Women's Speed Qualification",
+            "start": "2026-05-10T13:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "speed",
+            "name": "Men's & Women's Speed Final",
+            "start": "2026-05-10T20:00:00",
+            "age": "open",
+            "ability": "open"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "graz-boulder",
+    "venue": {
+      "city": "Graz",
+      "country": "Austria",
+      "timezone": "Europe/Vienna"
+    },
+    "start": "2026-05-09T08:30:00",
+    "end": "2026-05-10T13:30:00",
+    "legs": [
+      {
+        "id": "graz-boulder",
+        "title": "World Climbing Europe Youth Series Graz 2026",
+        "links": [
+          {
+            "displayText": "Info sheet",
+            "accessibleText": "Info sheet",
+            "url": "https://ifsc.results.info/events/1496/infosheet",
+            "openInNewTab": true
+          },
+          {
+            "displayText": "Registrations",
+            "accessibleText": "Registrations",
+            "url": "https://ifsc.results.info/event/1496/registrations",
+            "openInNewTab": true
+          }
+        ],
+        "start": "2026-05-09T08:30:00",
+        "end": "2026-05-10T13:30:00",
+        "program": [
+          {
+            "discipline": "boulder",
+            "name": "Boulder Qualification",
+            "start": "2026-05-09T08:30:00",
+            "age": "u17",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Boulder Qualification",
+            "start": "2026-05-09T16:00:00",
+            "age": "u19",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Boulder Final",
+            "start": "2026-05-10T10:00:00",
+            "age": "u17",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Boulder Final",
+            "start": "2026-05-10T13:30:00",
+            "age": "u19",
+            "ability": "open"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "salt-lake-city-para-lead",
+    "venue": {
+      "city": "Salt Lake City",
+      "country": "United States",
+      "timezone": "America/Denver"
+    },
+    "start": "2026-05-15T09:00:00",
+    "end": "2026-05-16T12:00:00",
+    "legs": [
+      {
+        "id": "salt-lake-city-para-lead",
+        "title": "World Climbing Para Series Salt Lake City 2026",
+        "links": [
+          {
+            "displayText": "Info sheet",
+            "accessibleText": "Info sheet",
+            "url": "https://ifsc.results.info/events/1477/infosheet",
+            "openInNewTab": true
+          },
+          {
+            "displayText": "Registrations",
+            "accessibleText": "Registrations",
+            "url": "https://ifsc.results.info/event/1477/registrations",
+            "openInNewTab": true
+          }
+        ],
+        "start": "2026-05-15T09:00:00",
+        "end": "2026-05-16T12:00:00",
+        "program": [
+          {
+            "discipline": "lead",
+            "name": "Qualification",
+            "start": "2026-05-15T09:00:00",
+            "age": "open",
+            "ability": "para"
+          },
+          {
+            "discipline": "lead",
+            "name": "Final",
+            "start": "2026-05-16T12:00:00",
+            "age": "open",
+            "ability": "para"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "liptovsky-mikulas-boulder",
+    "venue": {
+      "city": "Liptovsk\u00fd Mikul\u00e1\u0161",
+      "country": "Slovakia",
+      "timezone": "Europe/Bratislava"
+    },
+    "start": "2026-05-16T08:00:00",
+    "end": "2026-05-17T18:30:00",
+    "legs": [
+      {
+        "id": "liptovsky-mikulas-boulder",
+        "title": "World Climbing Europe Series Liptovsk\u00fd Mikul\u00e1\u0161 2026",
+        "links": [
+          {
+            "displayText": "Info sheet",
+            "accessibleText": "Info sheet",
+            "url": "https://ifsc.results.info/events/1497/infosheet",
+            "openInNewTab": true
+          },
+          {
+            "displayText": "Registrations",
+            "accessibleText": "Registrations",
+            "url": "https://ifsc.results.info/event/1497/registrations",
+            "openInNewTab": true
+          }
+        ],
+        "start": "2026-05-16T08:00:00",
+        "end": "2026-05-17T18:30:00",
+        "program": [
+          {
+            "discipline": "boulder",
+            "name": "Women's Boulder Qualification",
+            "start": "2026-05-16T08:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Men's Boulder Qualification",
+            "start": "2026-05-16T15:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Women's Boulder Semi-final",
+            "start": "2026-05-17T08:30:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Men's Boulder Semi-final",
+            "start": "2026-05-17T12:15:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Women's Boulder Final",
+            "start": "2026-05-17T16:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Men's Boulder Final",
+            "start": "2026-05-17T18:30:00",
+            "age": "open",
+            "ability": "open"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bern-boulder",
+    "venue": {
+      "city": "Bern",
+      "country": "Switzerland",
+      "timezone": "Europe/Zurich"
+    },
+    "start": "2026-05-22T09:00:00",
+    "end": "2026-05-24T18:00:00",
+    "legs": [
+      {
+        "id": "bern-boulder",
+        "title": "World Climbing Series Bern 2026",
+        "links": [
+          {
+            "displayText": "Info sheet",
+            "accessibleText": "Info sheet",
+            "url": "https://ifsc.results.info/events/1478/infosheet",
+            "openInNewTab": true
+          },
+          {
+            "displayText": "Registrations",
+            "accessibleText": "Registrations",
+            "url": "https://ifsc.results.info/event/1478/registrations",
+            "openInNewTab": true
+          }
+        ],
+        "start": "2026-05-22T09:00:00",
+        "end": "2026-05-24T18:00:00",
+        "program": [
+          {
+            "discipline": "boulder",
+            "name": "Women's Boulder Qualification",
+            "start": "2026-05-22T09:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Men's Boulder Qualification",
+            "start": "2026-05-22T15:30:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Women's Boulder Semi-final",
+            "start": "2026-05-23T10:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Women's Boulder Final",
+            "start": "2026-05-23T18:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Men's Boulder Semi-final",
+            "start": "2026-05-24T10:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Men's Boulder Final",
+            "start": "2026-05-24T18:00:00",
+            "age": "open",
+            "ability": "open"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "madrid-boulder-speed",
+    "venue": {
+      "city": "Madrid",
+      "country": "Spain",
+      "timezone": "Europe/Madrid"
+    },
+    "start": "2026-05-28T10:00:00",
+    "end": "2026-05-31T18:00:00",
+    "legs": [
+      {
+        "id": "madrid-boulder-speed",
+        "title": "World Climbing Series Comunidad de Madrid 2026",
+        "links": [
+          {
+            "displayText": "Info sheet",
+            "accessibleText": "Info sheet",
+            "url": "https://ifsc.results.info/events/1479/infosheet",
+            "openInNewTab": true
+          },
+          {
+            "displayText": "Registrations",
+            "accessibleText": "Registrations",
+            "url": "https://ifsc.results.info/event/1479/registrations",
+            "openInNewTab": true
+          }
+        ],
+        "start": "2026-05-28T10:00:00",
+        "end": "2026-05-31T18:00:00",
+        "program": [
+          {
+            "discipline": "boulder",
+            "name": "Women's Boulder Qualification",
+            "start": "2026-05-28T10:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Men's Boulder Qualification",
+            "start": "2026-05-28T16:30:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Women's Boulder Semi-final",
+            "start": "2026-05-29T10:30:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Women's Boulder Final",
+            "start": "2026-05-29T19:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Men's Boulder Semi-final",
+            "start": "2026-05-30T10:30:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Men's Boulder Final",
+            "start": "2026-05-30T19:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "speed",
+            "name": "Women's Speed Qualification",
+            "start": "2026-05-31T11:15:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "speed",
+            "name": "Men's Speed Qualification",
+            "start": "2026-05-31T14:30:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "speed",
+            "name": "Women's & Men's Speed Final",
+            "start": "2026-05-31T18:00:00",
+            "age": "open",
+            "ability": "open"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "prague-boulder-lead",
+    "venue": {
+      "city": "Prague",
+      "country": "Czech Republic",
+      "timezone": "Europe/Prague"
+    },
+    "start": "2026-06-03T09:00:00",
+    "end": "2026-06-07T19:00:00",
+    "legs": [
+      {
+        "id": "prague-boulder-lead",
+        "title": "World Climbing Series Prague 2026",
+        "links": [
+          {
+            "displayText": "Info sheet",
+            "accessibleText": "Info sheet",
+            "url": "https://ifsc.results.info/events/1480/infosheet",
+            "openInNewTab": true
+          },
+          {
+            "displayText": "Registrations",
+            "accessibleText": "Registrations",
+            "url": "https://ifsc.results.info/event/1480/registrations",
+            "openInNewTab": true
+          }
+        ],
+        "start": "2026-06-03T09:00:00",
+        "end": "2026-06-07T19:00:00",
+        "program": [
+          {
+            "discipline": "boulder",
+            "name": "Men's Boulder Qualification",
+            "start": "2026-06-03T09:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Women's Boulder Qualification",
+            "start": "2026-06-03T16:30:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "lead",
+            "name": "Men's & Women's Lead Qualification",
+            "start": "2026-06-04T10:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Men's Boulder Semi-final",
+            "start": "2026-06-05T12:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Men's Boulder Final",
+            "start": "2026-06-05T19:30:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Women's Boulder Semi-final",
+            "start": "2026-06-06T12:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Women's Boulder Final",
+            "start": "2026-06-06T19:30:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "lead",
+            "name": "Men's & Women's Lead Semi-final",
+            "start": "2026-06-07T10:30:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "lead",
+            "name": "Women's Lead Final",
+            "start": "2026-06-07T18:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "lead",
+            "name": "Men's Lead Final",
+            "start": "2026-06-07T19:00:00",
+            "age": "open",
+            "ability": "open"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sukoro-boulder",
+    "venue": {
+      "city": "Sukor\u00f3",
+      "country": "Hungary",
+      "timezone": "Europe/Budapest"
+    },
+    "start": "2026-06-11T13:00:00",
+    "end": "2026-06-14T16:00:00",
+    "legs": [
+      {
+        "id": "sukoro-boulder",
+        "title": "World Climbing Europe Youth Championship Sukor\u00f3 2026",
+        "links": [
+          {
+            "displayText": "Info sheet",
+            "accessibleText": "Info sheet",
+            "url": "https://ifsc.results.info/events/1501/infosheet",
+            "openInNewTab": true
+          },
+          {
+            "displayText": "Registrations",
+            "accessibleText": "Registrations",
+            "url": "https://ifsc.results.info/event/1501/registrations",
+            "openInNewTab": true
+          }
+        ],
+        "start": "2026-06-11T13:00:00",
+        "end": "2026-06-14T16:00:00",
+        "program": [
+          {
+            "discipline": "boulder",
+            "name": "Boulder Qualification",
+            "start": "2026-06-11T13:00:00",
+            "age": "u17",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Boulder Qualification",
+            "start": "2026-06-12T09:00:00",
+            "age": "u19",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Boulder Qualification",
+            "start": "2026-06-12T16:30:00",
+            "age": "u21",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Boulder Semi-final",
+            "start": "2026-06-13T09:00:00",
+            "age": "u17",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Boulder Semi-final",
+            "start": "2026-06-13T13:35:00",
+            "age": "u19",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Boulder Semi-final",
+            "start": "2026-06-13T17:00:00",
+            "age": "u21",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Boulder Final",
+            "start": "2026-06-14T09:00:00",
+            "age": "u17",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Boulder Final",
+            "start": "2026-06-14T13:05:00",
+            "age": "u19",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Boulder Final",
+            "start": "2026-06-14T16:00:00",
+            "age": "u21",
+            "ability": "open"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "zakopane",
+    "venue": {
+      "city": "Zakopane",
+      "country": "Poland",
+      "timezone": "Europe/Warsaw"
+    },
+    "start": "2026-06-13T14:00:00",
+    "end": "2026-06-14T14:00:00",
+    "legs": [
+      {
+        "id": "zakopane-speed",
+        "title": "World Climbing Europe Youth Championship Zakopane 2026",
+        "links": [
+          {
+            "displayText": "Info sheet",
+            "accessibleText": "Info sheet",
+            "url": "https://ifsc.results.info/events/1499/infosheet",
+            "openInNewTab": true
+          },
+          {
+            "displayText": "Registrations",
+            "accessibleText": "Registrations",
+            "url": "https://ifsc.results.info/event/1499/registrations",
+            "openInNewTab": true
+          }
+        ],
+        "start": "2026-06-13T14:00:00",
+        "end": "2026-06-13T17:30:00",
+        "program": [
+          {
+            "discipline": "speed",
+            "name": "Speed Qualification",
+            "start": "2026-06-13T14:00:00",
+            "age": "u17",
+            "ability": "open"
+          },
+          {
+            "discipline": "speed",
+            "name": "Speed Qualification",
+            "start": "2026-06-13T14:00:00",
+            "age": "u19",
+            "ability": "open"
+          },
+          {
+            "discipline": "speed",
+            "name": "Speed Qualification",
+            "start": "2026-06-13T14:00:00",
+            "age": "u21",
+            "ability": "open"
+          },
+          {
+            "discipline": "speed",
+            "name": "Speed Final",
+            "start": "2026-06-13T17:30:00",
+            "age": "u17",
+            "ability": "open"
+          },
+          {
+            "discipline": "speed",
+            "name": "Speed Final",
+            "start": "2026-06-13T17:30:00",
+            "age": "u19",
+            "ability": "open"
+          },
+          {
+            "discipline": "speed",
+            "name": "Speed Final",
+            "start": "2026-06-13T17:30:00",
+            "age": "u21",
+            "ability": "open"
+          }
+        ]
+      },
+      {
+        "id": "zakopane-speed-open",
+        "title": "World Climbing Europe Series Zakopane 2026",
+        "links": [
+          {
+            "displayText": "Info sheet",
+            "accessibleText": "Info sheet",
+            "url": "https://ifsc.results.info/events/1500/infosheet",
+            "openInNewTab": true
+          },
+          {
+            "displayText": "Registrations",
+            "accessibleText": "Registrations",
+            "url": "https://ifsc.results.info/event/1500/registrations",
+            "openInNewTab": true
+          }
+        ],
+        "start": "2026-06-14T12:00:00",
+        "end": "2026-06-14T14:00:00",
+        "program": [
+          {
+            "discipline": "speed",
+            "name": "Women's & Men's Speed Qualification",
+            "start": "2026-06-14T12:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "speed",
+            "name": "Women's & Men's Speed Final",
+            "start": "2026-06-14T14:00:00",
+            "age": "open",
+            "ability": "open"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "innsbruck",
+    "venue": {
+      "city": "Innsbruck",
+      "country": "Austria",
+      "timezone": "Europe/Vienna"
+    },
+    "start": "2026-06-15T09:00:00",
+    "end": "2026-06-21T20:40:00",
+    "legs": [
+      {
+        "id": "innsbruck-para-lead",
+        "title": "World Climbing Para Series Innsbruck 2026",
+        "links": [
+          {
+            "displayText": "Info sheet",
+            "accessibleText": "Info sheet",
+            "url": "https://ifsc.results.info/events/1481/infosheet",
+            "openInNewTab": true
+          },
+          {
+            "displayText": "Registrations",
+            "accessibleText": "Registrations",
+            "url": "https://ifsc.results.info/event/1481/registrations",
+            "openInNewTab": true
+          }
+        ],
+        "start": "2026-06-15T09:00:00",
+        "end": "2026-06-16T16:00:00",
+        "program": [
+          {
+            "discipline": "lead",
+            "name": "Qualification",
+            "start": "2026-06-15T09:00:00",
+            "age": "open",
+            "ability": "para"
+          },
+          {
+            "discipline": "lead",
+            "name": "Final",
+            "start": "2026-06-16T16:00:00",
+            "age": "open",
+            "ability": "para"
+          }
+        ]
+      },
+      {
+        "id": "innsbruck-boulder-lead",
+        "title": "World Climbing Series Innsbruck 2026",
+        "links": [
+          {
+            "displayText": "Info sheet",
+            "accessibleText": "Info sheet",
+            "url": "https://ifsc.results.info/events/1482/infosheet",
+            "openInNewTab": true
+          },
+          {
+            "displayText": "Registrations",
+            "accessibleText": "Registrations",
+            "url": "https://ifsc.results.info/event/1482/registrations",
+            "openInNewTab": true
+          }
+        ],
+        "start": "2026-06-17T09:00:00",
+        "end": "2026-06-21T20:40:00",
+        "program": [
+          {
+            "discipline": "boulder",
+            "name": "Women's Boulder Qualification",
+            "start": "2026-06-17T09:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Men's Boulder Qualification",
+            "start": "2026-06-17T15:30:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Women's Boulder Semi-final",
+            "start": "2026-06-18T13:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Women's Boulder Final",
+            "start": "2026-06-18T19:30:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Men's Boulder Semi-final",
+            "start": "2026-06-19T13:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Men's Boulder Final",
+            "start": "2026-06-19T19:30:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "lead",
+            "name": "Men's & Women's Lead Qualification",
+            "start": "2026-06-20T08:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "lead",
+            "name": "Men's & Women's Lead Semi-final",
+            "start": "2026-06-20T19:40:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "lead",
+            "name": "Men's Lead Final",
+            "start": "2026-06-21T19:40:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "lead",
+            "name": "Women's Lead Final",
+            "start": "2026-06-21T20:40:00",
+            "age": "open",
+            "ability": "open"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "krakow-speed",
+    "venue": {
+      "city": "Krakow",
+      "country": "Poland",
+      "timezone": "Europe/Warsaw"
+    },
+    "start": "2026-07-03T10:30:00",
+    "end": "2026-07-05T16:30:00",
+    "legs": [
+      {
+        "id": "krakow-speed",
+        "title": "World Climbing Series Krakow 2026",
+        "links": [
+          {
+            "displayText": "Info sheet",
+            "accessibleText": "Info sheet",
+            "url": "https://ifsc.results.info/events/1483/infosheet",
+            "openInNewTab": true
+          },
+          {
+            "displayText": "Registrations",
+            "accessibleText": "Registrations",
+            "url": "https://ifsc.results.info/event/1483/registrations",
+            "openInNewTab": true
+          }
+        ],
+        "start": "2026-07-03T10:30:00",
+        "end": "2026-07-05T16:30:00",
+        "program": [
+          {
+            "discipline": "speed",
+            "name": "Men's Speed Qualification",
+            "start": "2026-07-03T10:30:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "speed",
+            "name": "Women's Speed Qualification",
+            "start": "2026-07-03T12:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "speed",
+            "name": "Mixed Speed Relay Qualification",
+            "start": "2026-07-03T18:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "speed",
+            "name": "Men's & Women's Speed Final",
+            "start": "2026-07-04T12:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "speed",
+            "name": "Mixed Speed Relay Final",
+            "start": "2026-07-04T16:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "speed",
+            "name": "Men's & Women's Speed Relay Qualification",
+            "start": "2026-07-05T12:30:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "speed",
+            "name": "Men's & Women's Speed Relay Final",
+            "start": "2026-07-05T16:30:00",
+            "age": "open",
+            "ability": "open"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dornbirn-lead",
+    "venue": {
+      "city": "Dornbirn",
+      "country": "Austria",
+      "timezone": "Europe/Vienna"
+    },
+    "start": "2026-07-04T09:00:00",
+    "end": "2026-07-05T11:30:00",
+    "legs": [
+      {
+        "id": "dornbirn-lead",
+        "title": "World Climbing Europe Youth Series Dornbirn 2026",
+        "links": [
+          {
+            "displayText": "Info sheet",
+            "accessibleText": "Info sheet",
+            "url": "https://ifsc.results.info/events/1502/infosheet",
+            "openInNewTab": true
+          },
+          {
+            "displayText": "Registrations",
+            "accessibleText": "Registrations",
+            "url": "https://ifsc.results.info/event/1502/registrations",
+            "openInNewTab": true
+          }
+        ],
+        "start": "2026-07-04T09:00:00",
+        "end": "2026-07-05T11:30:00",
+        "program": [
+          {
+            "discipline": "lead",
+            "name": "Lead Qualification",
+            "start": "2026-07-04T09:00:00",
+            "age": "u17",
+            "ability": "open"
+          },
+          {
+            "discipline": "lead",
+            "name": "Lead Qualification",
+            "start": "2026-07-04T15:00:00",
+            "age": "u19",
+            "ability": "open"
+          },
+          {
+            "discipline": "lead",
+            "name": "Lead Final",
+            "start": "2026-07-05T10:00:00",
+            "age": "u17",
+            "ability": "open"
+          },
+          {
+            "discipline": "lead",
+            "name": "Lead Final",
+            "start": "2026-07-05T11:30:00",
+            "age": "u19",
+            "ability": "open"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "chamonix-lead-speed",
+    "venue": {
+      "city": "Chamonix",
+      "country": "France",
+      "timezone": "Europe/Paris"
+    },
+    "start": "2026-07-10T18:45:00",
+    "end": "2026-07-12T21:25:00",
+    "legs": [
+      {
+        "id": "chamonix-lead-speed",
+        "title": "World Climbing Series Chamonix 2026",
+        "links": [
+          {
+            "displayText": "Info sheet",
+            "accessibleText": "Info sheet",
+            "url": "https://ifsc.results.info/events/1484/infosheet",
+            "openInNewTab": true
+          },
+          {
+            "displayText": "Registrations",
+            "accessibleText": "Registrations",
+            "url": "https://ifsc.results.info/event/1484/registrations",
+            "openInNewTab": true
+          }
+        ],
+        "start": "2026-07-10T18:45:00",
+        "end": "2026-07-12T21:25:00",
+        "program": [
+          {
+            "discipline": "speed",
+            "name": "Women's & Men's Speed Qualification",
+            "start": "2026-07-10T18:45:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "lead",
+            "name": "Men's & Women's Lead Qualification",
+            "start": "2026-07-11T09:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "speed",
+            "name": "Women's & Men's Speed Final",
+            "start": "2026-07-11T21:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "lead",
+            "name": "Men's & Women's Lead Semi-final",
+            "start": "2026-07-12T10:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "lead",
+            "name": "Women's Lead Final",
+            "start": "2026-07-12T20:30:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "lead",
+            "name": "Men's Lead Final",
+            "start": "2026-07-12T21:25:00",
+            "age": "open",
+            "ability": "open"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "barcelona",
+    "venue": {
+      "city": "Barcelona",
+      "country": "Spain",
+      "timezone": "Europe/Madrid"
+    },
+    "start": "2026-07-17T17:30:00",
+    "end": "2026-07-19T17:45:00",
+    "legs": [
+      {
+        "id": "barcelona-speed",
+        "title": "World Climbing Europe Series Barcelona 2026",
+        "links": [
+          {
+            "displayText": "Info sheet",
+            "accessibleText": "Info sheet",
+            "url": "https://ifsc.results.info/events/1504/infosheet",
+            "openInNewTab": true
+          },
+          {
+            "displayText": "Registrations",
+            "accessibleText": "Registrations",
+            "url": "https://ifsc.results.info/event/1504/registrations",
+            "openInNewTab": true
+          }
+        ],
+        "start": "2026-07-17T17:30:00",
+        "end": "2026-07-17T19:00:00",
+        "program": [
+          {
+            "discipline": "speed",
+            "name": "Women's & Men's Speed Qualification",
+            "start": "2026-07-17T17:30:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "speed",
+            "name": "Women's & Men's Speed Final",
+            "start": "2026-07-17T19:00:00",
+            "age": "open",
+            "ability": "open"
+          }
+        ]
+      },
+      {
+        "id": "barcelona-boulder",
+        "title": "World Climbing Europe Championship Barcelona 2026",
+        "links": [
+          {
+            "displayText": "Info sheet",
+            "accessibleText": "Info sheet",
+            "url": "https://ifsc.results.info/events/1503/infosheet",
+            "openInNewTab": true
+          },
+          {
+            "displayText": "Registrations",
+            "accessibleText": "Registrations",
+            "url": "https://ifsc.results.info/event/1503/registrations",
+            "openInNewTab": true
+          }
+        ],
+        "start": "2026-07-18T08:30:00",
+        "end": "2026-07-19T17:45:00",
+        "program": [
+          {
+            "discipline": "boulder",
+            "name": "Men's Boulder Qualification",
+            "start": "2026-07-18T08:30:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Women's Boulder Qualification",
+            "start": "2026-07-18T16:30:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Men's & Women's Boulder Semi-final",
+            "start": "2026-07-19T10:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Men's Boulder Final",
+            "start": "2026-07-19T16:20:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Women's Boulder Final",
+            "start": "2026-07-19T17:45:00",
+            "age": "open",
+            "ability": "open"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "arco",
+    "venue": {
+      "city": "Arco",
+      "country": "Italy",
+      "timezone": "Europe/Rome"
+    },
+    "start": "2026-07-18T11:00:00",
+    "end": "2026-07-25T18:00:00",
+    "legs": [
+      {
+        "id": "arco",
+        "title": "World Climbing Youth Championship Arco 2026",
+        "links": [
+          {
+            "displayText": "Info sheet",
+            "accessibleText": "Info sheet",
+            "url": "https://ifsc.results.info/events/1522/infosheet",
+            "openInNewTab": true
+          },
+          {
+            "displayText": "Registrations",
+            "accessibleText": "Registrations",
+            "url": "https://ifsc.results.info/event/1522/registrations",
+            "openInNewTab": true
+          }
+        ],
+        "start": "2026-07-18T11:00:00",
+        "end": "2026-07-25T18:00:00",
+        "program": [
+          {
+            "discipline": "lead",
+            "name": "Women's & Men's Lead Qualification",
+            "start": "2026-07-18T11:00:00",
+            "age": "u17",
+            "ability": "open"
+          },
+          {
+            "discipline": "lead",
+            "name": "Women's & Men's Lead Qualification",
+            "start": "2026-07-19T11:00:00",
+            "age": "u19",
+            "ability": "open"
+          },
+          {
+            "discipline": "lead",
+            "name": "Women's & Men's Lead Semi-final",
+            "start": "2026-07-20T09:00:00",
+            "age": "u17",
+            "ability": "open"
+          },
+          {
+            "discipline": "lead",
+            "name": "Women's & Men's Lead Semi-final",
+            "start": "2026-07-20T14:00:00",
+            "age": "u19",
+            "ability": "open"
+          },
+          {
+            "discipline": "lead",
+            "name": "Women's & Men's Lead Final",
+            "start": "2026-07-20T20:00:00",
+            "age": "u17",
+            "ability": "open"
+          },
+          {
+            "discipline": "lead",
+            "name": "Women's & Men's Lead Final",
+            "start": "2026-07-20T21:00:00",
+            "age": "u19",
+            "ability": "open"
+          },
+          {
+            "discipline": "speed",
+            "name": "Women's & Men's Speed Qualification",
+            "start": "2026-07-21T11:00:00",
+            "age": "u17",
+            "ability": "open"
+          },
+          {
+            "discipline": "speed",
+            "name": "Women's & Men's Speed Qualification",
+            "start": "2026-07-21T17:15:00",
+            "age": "u19",
+            "ability": "open"
+          },
+          {
+            "discipline": "speed",
+            "name": "Women's & Men's Speed Final",
+            "start": "2026-07-21T20:30:00",
+            "age": "u17",
+            "ability": "open"
+          },
+          {
+            "discipline": "speed",
+            "name": "Women's & Men's Speed Final",
+            "start": "2026-07-21T21:30:00",
+            "age": "u19",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Women's & Men's Boulder Qualification",
+            "start": "2026-07-22T10:00:00",
+            "age": "u17",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Women's & Men's Boulder Qualification",
+            "start": "2026-07-23T10:00:00",
+            "age": "u19",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Women's & Men's Boulder Semi-final",
+            "start": "2026-07-24T09:00:00",
+            "age": "u17",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Women's & Men's Boulder Final",
+            "start": "2026-07-24T18:00:00",
+            "age": "u17",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Women's & Men's Boulder Semi-final",
+            "start": "2026-07-25T09:00:00",
+            "age": "u19",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Women's & Men's Boulder Final",
+            "start": "2026-07-25T18:00:00",
+            "age": "u19",
+            "ability": "open"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "salt-lake-city-boulder-lead-speed",
+    "venue": {
+      "city": "Salt Lake City",
+      "country": "United States",
+      "timezone": "America/Denver"
+    },
+    "start": "2026-07-25T09:00:00",
+    "end": "2026-07-28T18:00:00",
+    "legs": [
+      {
+        "id": "salt-lake-city-boulder-lead-speed",
+        "title": "World Climbing Pan America Series Salt Lake City 2026",
+        "links": [
+          {
+            "displayText": "Info sheet",
+            "accessibleText": "Info sheet",
+            "url": "https://ifsc.results.info/events/1531/infosheet",
+            "openInNewTab": true
+          },
+          {
+            "displayText": "Registrations",
+            "accessibleText": "Registrations",
+            "url": "https://ifsc.results.info/event/1531/registrations",
+            "openInNewTab": true
+          }
+        ],
+        "start": "2026-07-25T09:00:00",
+        "end": "2026-07-28T18:00:00",
+        "program": [
+          {
+            "discipline": "boulder",
+            "name": "Women's Boulder Qualification",
+            "start": "2026-07-25T09:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Men's Boulder Qualification",
+            "start": "2026-07-25T16:15:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Men's & Women's Boulder Semi-final",
+            "start": "2026-07-26T10:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "speed",
+            "name": "Men's & Women's Speed Qualification",
+            "start": "2026-07-26T15:15:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Men's & Women's Boulder Final",
+            "start": "2026-07-26T18:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "lead",
+            "name": "Men's & Women's Lead Qualification",
+            "start": "2026-07-27T09:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "speed",
+            "name": "Men's & Women's Speed Final",
+            "start": "2026-07-27T18:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "lead",
+            "name": "Men's & Women's Lead Semi-final",
+            "start": "2026-07-28T10:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "lead",
+            "name": "Men's & Women's Lead Final",
+            "start": "2026-07-28T18:00:00",
+            "age": "open",
+            "ability": "open"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "st-polten",
+    "venue": {
+      "city": "St. P\u00f6lten",
+      "country": "Austria",
+      "timezone": "Europe/Vienna"
+    },
+    "start": "2026-08-01T12:00:00",
+    "end": "2026-08-02T13:00:00",
+    "legs": [
+      {
+        "id": "st-polten-speed",
+        "title": "World Climbing Europe Youth Series St. P\u00f6lten 2026",
+        "links": [
+          {
+            "displayText": "Info sheet",
+            "accessibleText": "Info sheet",
+            "url": "https://ifsc.results.info/events/1505/infosheet",
+            "openInNewTab": true
+          },
+          {
+            "displayText": "Registrations",
+            "accessibleText": "Registrations",
+            "url": "https://ifsc.results.info/event/1505/registrations",
+            "openInNewTab": true
+          }
+        ],
+        "start": "2026-08-01T12:00:00",
+        "end": "2026-08-01T15:00:00",
+        "program": [
+          {
+            "discipline": "speed",
+            "name": "Speed Qualification",
+            "start": "2026-08-01T12:00:00",
+            "age": "u17",
+            "ability": "open"
+          },
+          {
+            "discipline": "speed",
+            "name": "Speed Qualification",
+            "start": "2026-08-01T13:00:00",
+            "age": "u19",
+            "ability": "open"
+          },
+          {
+            "discipline": "speed",
+            "name": "Speed Final",
+            "start": "2026-08-01T15:00:00",
+            "age": "u17",
+            "ability": "open"
+          },
+          {
+            "discipline": "speed",
+            "name": "Speed Final",
+            "start": "2026-08-01T15:00:00",
+            "age": "u19",
+            "ability": "open"
+          }
+        ]
+      },
+      {
+        "id": "st-polten-speed-open",
+        "title": "World Climbing Europe Series St. P\u00f6lten 2026",
+        "links": [
+          {
+            "displayText": "Info sheet",
+            "accessibleText": "Info sheet",
+            "url": "https://ifsc.results.info/events/1506/infosheet",
+            "openInNewTab": true
+          },
+          {
+            "displayText": "Registrations",
+            "accessibleText": "Registrations",
+            "url": "https://ifsc.results.info/event/1506/registrations",
+            "openInNewTab": true
+          }
+        ],
+        "start": "2026-08-02T11:00:00",
+        "end": "2026-08-02T13:00:00",
+        "program": [
+          {
+            "discipline": "speed",
+            "name": "Women's & Men's Speed Qualification",
+            "start": "2026-08-02T11:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "speed",
+            "name": "Women's & Men's Speed Final",
+            "start": "2026-08-02T13:00:00",
+            "age": "open",
+            "ability": "open"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "zilina-lead-speed",
+    "venue": {
+      "city": "\u017dilina",
+      "country": "Slovakia",
+      "timezone": "Europe/Bratislava"
+    },
+    "start": "2026-08-08T09:00:00",
+    "end": "2026-08-09T19:00:00",
+    "legs": [
+      {
+        "id": "zilina-lead-speed",
+        "title": "World Climbing Europe Series \u017dilina 2026",
+        "links": [
+          {
+            "displayText": "Info sheet",
+            "accessibleText": "Info sheet",
+            "url": "https://ifsc.results.info/events/1507/infosheet",
+            "openInNewTab": true
+          },
+          {
+            "displayText": "Registrations",
+            "accessibleText": "Registrations",
+            "url": "https://ifsc.results.info/event/1507/registrations",
+            "openInNewTab": true
+          }
+        ],
+        "start": "2026-08-08T09:00:00",
+        "end": "2026-08-09T19:00:00",
+        "program": [
+          {
+            "discipline": "lead",
+            "name": "Lead Qualification",
+            "start": "2026-08-08T09:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "speed",
+            "name": "Speed Qualification",
+            "start": "2026-08-08T16:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "speed",
+            "name": "Speed Final",
+            "start": "2026-08-08T20:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "lead",
+            "name": "Lead Semi-final",
+            "start": "2026-08-09T09:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "lead",
+            "name": "Women's Lead Final",
+            "start": "2026-08-09T18:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "lead",
+            "name": "Men's Lead Final",
+            "start": "2026-08-09T19:00:00",
+            "age": "open",
+            "ability": "open"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ostermundigen-lead",
+    "venue": {
+      "city": "Ostermundigen",
+      "country": "Switzerland",
+      "timezone": "Europe/Zurich"
+    },
+    "start": "2026-08-21T09:00:00",
+    "end": "2026-08-22T20:15:00",
+    "legs": [
+      {
+        "id": "ostermundigen-lead",
+        "title": "World Climbing Europe Series Ostermundigen 2026",
+        "links": [
+          {
+            "displayText": "Info sheet",
+            "accessibleText": "Info sheet",
+            "url": "https://ifsc.results.info/events/1508/infosheet",
+            "openInNewTab": true
+          },
+          {
+            "displayText": "Regstrations",
+            "accessibleText": "Regstrations",
+            "url": "https://ifsc.results.info/event/1508/registrations",
+            "openInNewTab": true
+          }
+        ],
+        "start": "2026-08-21T09:00:00",
+        "end": "2026-08-22T20:15:00",
+        "program": [
+          {
+            "discipline": "lead",
+            "name": "Men's & Women's Lead Qualification",
+            "start": "2026-08-21T09:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "lead",
+            "name": "Men's & Women's Lead Semi-final",
+            "start": "2026-08-21T19:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "lead",
+            "name": "Women's Lead Final",
+            "start": "2026-08-22T19:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "lead",
+            "name": "Men's Lead Final",
+            "start": "2026-08-22T20:15:00",
+            "age": "open",
+            "ability": "open"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "curitiba-speed",
+    "venue": {
+      "city": "Curitiba",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo"
+    },
+    "start": "2026-08-22T11:15:00",
+    "end": "2026-08-23T12:00:00",
+    "legs": [
+      {
+        "id": "curitiba-speed",
+        "title": "World Climbing Pan America Championship Curitiba 2026",
+        "links": [
+          {
+            "displayText": "Info sheet",
+            "accessibleText": "Info sheet",
+            "url": "https://ifsc.results.info/events/1530/infosheet",
+            "openInNewTab": true
+          },
+          {
+            "displayText": "Registrations",
+            "accessibleText": "Registrations",
+            "url": "https://ifsc.results.info/event/1530/registrations",
+            "openInNewTab": true
+          }
+        ],
+        "start": "2026-08-22T11:15:00",
+        "end": "2026-08-23T12:00:00",
+        "program": [
+          {
+            "discipline": "speed",
+            "name": "Women's Speed Qualification",
+            "start": "2026-08-22T11:15:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "speed",
+            "name": "Men's Speed Qualification",
+            "start": "2026-08-22T14:15:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "speed",
+            "name": "Women's & Men's Speed Final",
+            "start": "2026-08-23T12:00:00",
+            "age": "open",
+            "ability": "open"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "laval",
+    "venue": {
+      "city": "Laval",
+      "country": "France",
+      "timezone": "Europe/Paris"
+    },
+    "start": "2026-08-28T08:00:00",
+    "end": "2026-08-30T15:00:00",
+    "legs": [
+      {
+        "id": "laval-para-championship-lead",
+        "title": "World Climbing Europe Para Championship Laval 2026",
+        "links": [
+          {
+            "displayText": "Info sheet",
+            "accessibleText": "Info sheet",
+            "url": "https://ifsc.results.info/events/1534/infosheet",
+            "openInNewTab": true
+          },
+          {
+            "displayText": "Registrations",
+            "accessibleText": "Registrations",
+            "url": "https://ifsc.results.info/event/1534/registrations",
+            "openInNewTab": true
+          }
+        ],
+        "start": "2026-08-28T08:00:00",
+        "end": "2026-08-29T20:30:00",
+        "program": [
+          {
+            "discipline": "lead",
+            "name": "Qualification (all Sport Classes)",
+            "start": "2026-08-28T08:00:00",
+            "age": "open",
+            "ability": "para"
+          },
+          {
+            "discipline": "lead",
+            "name": "Final \u2013 Session 1",
+            "start": "2026-08-28T20:00:00",
+            "age": "open",
+            "ability": "para"
+          },
+          {
+            "discipline": "lead",
+            "name": "Final \u2013 Session 2",
+            "start": "2026-08-29T20:30:00",
+            "age": "open",
+            "ability": "para"
+          }
+        ]
+      },
+      {
+        "id": "laval-para-series-lead",
+        "title": "World Climbing Para Series Laval 2026",
+        "links": [
+          {
+            "displayText": "Info sheet",
+            "accessibleText": "Info sheet",
+            "url": "https://ifsc.results.info/events/1486/infosheet",
+            "openInNewTab": true
+          },
+          {
+            "displayText": "Registrations",
+            "accessibleText": "Registrations",
+            "url": "https://ifsc.results.info/event/1486/registrations",
+            "openInNewTab": true
+          }
+        ],
+        "start": "2026-08-28T08:00:00",
+        "end": "2026-08-29T20:30:00",
+        "program": [
+          {
+            "discipline": "lead",
+            "name": "Qualification (all Sport Classes)",
+            "start": "2026-08-28T08:00:00",
+            "age": "open",
+            "ability": "para"
+          },
+          {
+            "discipline": "lead",
+            "name": "Final \u2013 Session 1",
+            "start": "2026-08-28T20:00:00",
+            "age": "open",
+            "ability": "para"
+          },
+          {
+            "discipline": "lead",
+            "name": "Final \u2013 Session 2",
+            "start": "2026-08-29T20:30:00",
+            "age": "open",
+            "ability": "para"
+          }
+        ]
+      },
+      {
+        "id": "laval-lead-speed",
+        "title": "World Climbing Europe Championship Laval 2026",
+        "links": [
+          {
+            "displayText": "Info sheet",
+            "accessibleText": "Info sheet",
+            "url": "https://ifsc.results.info/events/1509/infosheet",
+            "openInNewTab": true
+          },
+          {
+            "displayText": "Registrations",
+            "accessibleText": "Registrations",
+            "url": "https://ifsc.results.info/event/1509/registrations",
+            "openInNewTab": true
+          }
+        ],
+        "start": "2026-08-29T08:00:00",
+        "end": "2026-08-30T15:00:00",
+        "program": [
+          {
+            "discipline": "lead",
+            "name": "Lead Qualification",
+            "start": "2026-08-29T08:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "speed",
+            "name": "Speed Qualification",
+            "start": "2026-08-29T10:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "speed",
+            "name": "Speed Final",
+            "start": "2026-08-29T19:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "lead",
+            "name": "Lead Semi-final",
+            "start": "2026-08-30T09:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "lead",
+            "name": "Lead Final",
+            "start": "2026-08-30T15:00:00",
+            "age": "open",
+            "ability": "open"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "koper-lead",
+    "venue": {
+      "city": "Koper",
+      "country": "Slovenia",
+      "timezone": "Europe/Ljubljana"
+    },
+    "start": "2026-09-04T09:00:00",
+    "end": "2026-09-05T21:00:00",
+    "legs": [
+      {
+        "id": "koper-lead",
+        "title": "World Climbing Series Koper 2026",
+        "links": [
+          {
+            "displayText": "Info sheet",
+            "accessibleText": "Info sheet",
+            "url": "https://ifsc.results.info/events/1487/infosheet",
+            "openInNewTab": true
+          },
+          {
+            "displayText": "Registrations",
+            "accessibleText": "Registrations",
+            "url": "https://ifsc.results.info/event/1487/registrations",
+            "openInNewTab": true
+          }
+        ],
+        "start": "2026-09-04T09:00:00",
+        "end": "2026-09-05T21:00:00",
+        "program": [
+          {
+            "discipline": "lead",
+            "name": "Women's & Men's Lead Qualification",
+            "start": "2026-09-04T09:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "lead",
+            "name": "Women's & Men's Lead Semi-final",
+            "start": "2026-09-04T20:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "lead",
+            "name": "Men's Lead Final",
+            "start": "2026-09-05T20:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "lead",
+            "name": "Women's Lead Final",
+            "start": "2026-09-05T21:00:00",
+            "age": "open",
+            "ability": "open"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "imst-lead-speed",
+    "venue": {
+      "city": "Imst",
+      "country": "Austria",
+      "timezone": "Europe/Vienna"
+    },
+    "start": "2026-09-04T15:00:00",
+    "end": "2026-09-06T12:30:00",
+    "legs": [
+      {
+        "id": "imst-lead-speed",
+        "title": "World Climbing Europe Youth Series Imst 2026",
+        "links": [
+          {
+            "displayText": "Info sheet",
+            "accessibleText": "Info sheet",
+            "url": "https://ifsc.results.info/events/1510/infosheet",
+            "openInNewTab": true
+          },
+          {
+            "displayText": "Registrations",
+            "accessibleText": "Registrations",
+            "url": "https://ifsc.results.info/event/1510/registrations",
+            "openInNewTab": true
+          }
+        ],
+        "start": "2026-09-04T15:00:00",
+        "end": "2026-09-06T12:30:00",
+        "program": [
+          {
+            "discipline": "speed",
+            "name": "Speed Qualification",
+            "start": "2026-09-04T15:00:00",
+            "age": "u17",
+            "ability": "open"
+          },
+          {
+            "discipline": "speed",
+            "name": "Speed Qualification",
+            "start": "2026-09-04T15:00:00",
+            "age": "u19",
+            "ability": "open"
+          },
+          {
+            "discipline": "speed",
+            "name": "Speed Final",
+            "start": "2026-09-04T17:00:00",
+            "age": "u17",
+            "ability": "open"
+          },
+          {
+            "discipline": "speed",
+            "name": "Speed Final",
+            "start": "2026-09-04T17:00:00",
+            "age": "u19",
+            "ability": "open"
+          },
+          {
+            "discipline": "lead",
+            "name": "Lead Qualification",
+            "start": "2026-09-05T09:00:00",
+            "age": "u17",
+            "ability": "open"
+          },
+          {
+            "discipline": "lead",
+            "name": "Lead Qualification",
+            "start": "2026-09-05T15:00:00",
+            "age": "u19",
+            "ability": "open"
+          },
+          {
+            "discipline": "lead",
+            "name": "Lead Final",
+            "start": "2026-09-06T11:00:00",
+            "age": "u17",
+            "ability": "open"
+          },
+          {
+            "discipline": "lead",
+            "name": "Lead Final",
+            "start": "2026-09-06T12:30:00",
+            "age": "u19",
+            "ability": "open"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "salt-lake-city-boulder",
+    "venue": {
+      "city": "Salt Lake City",
+      "country": "United States",
+      "timezone": "America/Denver"
+    },
+    "start": "2026-10-16T09:00:00",
+    "end": "2026-10-18T19:00:00",
+    "legs": [
+      {
+        "id": "salt-lake-city-boulder",
+        "title": "World Climbing Series Salt Lake City 2026",
+        "links": [
+          {
+            "displayText": "Info sheet",
+            "accessibleText": "Info sheet",
+            "url": "https://ifsc.results.info/events/1488/infosheet",
+            "openInNewTab": true
+          },
+          {
+            "displayText": "Registrations",
+            "accessibleText": "Registrations",
+            "url": "https://ifsc.results.info/event/1488/registrations",
+            "openInNewTab": true
+          }
+        ],
+        "start": "2026-10-16T09:00:00",
+        "end": "2026-10-18T19:00:00",
+        "program": [
+          {
+            "discipline": "boulder",
+            "name": "Men's Boulder Qualification",
+            "start": "2026-10-16T09:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Women's Boulder Qualification",
+            "start": "2026-10-16T16:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Men's Boulder Semi-final",
+            "start": "2026-10-17T10:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Men's Boulder Final",
+            "start": "2026-10-17T19:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Women's Boulder Semi-final",
+            "start": "2026-10-18T10:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "boulder",
+            "name": "Women's Boulder Final",
+            "start": "2026-10-18T19:00:00",
+            "age": "open",
+            "ability": "open"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "santiago-lead-speed",
+    "venue": {
+      "city": "Santiago",
+      "country": "Chile",
+      "timezone": "America/Santiago"
+    },
+    "start": "2026-10-23T09:00:00",
+    "end": "2026-10-25T19:00:00",
+    "legs": [
+      {
+        "id": "santiago-lead-speed",
+        "title": "World Climbing Series Santiago 2026",
+        "links": [
+          {
+            "displayText": "Info sheet",
+            "accessibleText": "Info sheet",
+            "url": "https://ifsc.results.info/events/1489/infosheet",
+            "openInNewTab": true
+          },
+          {
+            "displayText": "Registrations",
+            "accessibleText": "Registrations",
+            "url": "https://ifsc.results.info/event/1489/registrations",
+            "openInNewTab": true
+          }
+        ],
+        "start": "2026-10-23T09:00:00",
+        "end": "2026-10-25T19:00:00",
+        "program": [
+          {
+            "discipline": "lead",
+            "name": "Women's Lead Qualification",
+            "start": "2026-10-23T09:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "speed",
+            "name": "Men's & Women's Speed Qualification",
+            "start": "2026-10-23T19:15:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "lead",
+            "name": "Men's Lead Qualification",
+            "start": "2026-10-24T09:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "speed",
+            "name": "Men's & Women's Speed Final",
+            "start": "2026-10-24T18:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "lead",
+            "name": "Men's & Women's Lead Semi-final",
+            "start": "2026-10-25T09:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "lead",
+            "name": "Women's Lead Final",
+            "start": "2026-10-25T18:00:00",
+            "age": "open",
+            "ability": "open"
+          },
+          {
+            "discipline": "lead",
+            "name": "Men's Lead Final",
+            "start": "2026-10-25T19:00:00",
+            "age": "open",
+            "ability": "open"
+          }
+        ]
+      }
+    ]
+  }
+]

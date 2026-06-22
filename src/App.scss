@@ -1,0 +1,52 @@
+html,
+body,
+#root,
+#climbcal {
+  height: 100%;
+  margin: 0;
+}
+
+#climbcal {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+#header {
+  padding: 10px;
+  background-color: antiquewhite;
+  z-index: 10;
+}
+
+#header h1 {
+  margin: 0;
+}
+
+#main-content {
+  padding: 10px;
+  padding-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1 1 auto;
+  min-height: 0; /* allow children to shrink and enable internal scrolling */
+}
+
+#calendar {
+  display: flex;
+  flex-direction: row;
+  flex: 1 1 auto;
+  gap: 10px;
+  min-height: 0; /* allow the events pane to scroll internally */
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: black;
+    color: white;
+  }
+
+  #header {
+    background-color: rgb(86, 85, 84);
+  }
+}
