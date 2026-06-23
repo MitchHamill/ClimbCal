@@ -54,14 +54,14 @@ const EventsView: React.FC<EventsViewProps> = ({ timezone, filter }) => {
       return (
         <div key={dayKey}>
           <h4>{label}</h4>
-          {sortedRounds.map((round) => (
-            <div key={round.name}>
+          {sortedRounds.map(({ name, start, age }) => (
+            <div key={[name, start, age].join('-')}>
               <b>
-                {formatDateTime(round.start, hhmm, {
+                {formatDateTime(start, hhmm, {
                   source: sourceTimezone,
                   target: timezone,
                 })}{' '}
-                {round.name}
+                {name}
               </b>
             </div>
           ))}

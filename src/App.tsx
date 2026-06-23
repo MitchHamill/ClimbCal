@@ -6,6 +6,7 @@ import Months from './Months/Months';
 import type { FilterState } from 'types/filter';
 import EventsView from './EventsView/EventsView';
 import Filter from './Filter/Filter';
+import calendar from 'calendar';
 
 function App() {
   const [timezone] = useState(() => Temporal.Now.timeZoneId() as IanaTimeZone);
@@ -13,9 +14,35 @@ function App() {
     ageCategories: ['open'],
     disciplines: ['boulder'],
   });
-  const [selectedMonth, setSelectedMonth] = useState(() =>
-    Temporal.Now.instant().toLocaleString('en-US', { month: 'long' }),
-  );
+  const [selectedMonth, setSelectedMonth] = useState(() => {
+    const now = Temporal.Now.instant();
+
+    const nextOrOngoingEvent = calendar
+      .map((event) => {
+        const startInstant = Temporal.PlainDateTime.from(event.start)
+          .toZonedDateTime(event.venue.timezone)
+          .toInstant();
+        const endInstant = Temporal.PlainDateTime.from(event.end)
+          .toZonedDateTime(event.venue.timezone)
+          .toInstant();
+        return { event, startInstant, endInstant };
+      })
+      .filter(
+        ({ endInstant }) =>
+          endInstant.epochMilliseconds > now.epochMilliseconds,
+      )
+      .sort((a, b) =>
+        Temporal.Instant.compare(a.startInstant, b.startInstant),
+      )[0];
+
+    const referenceInstant = nextOrOngoingEvent?.startInstant ?? now;
+
+    return referenceInstant
+      .toZonedDateTimeISO(timezone)
+      .toLocaleString('en-US', {
+        month: 'long',
+      });
+  });
 
   return (
     <div id="climbcal">

@@ -8,7 +8,7 @@ export default defineConfig({
   resolve: {
     alias: {
       types: path.resolve(__dirname, 'src/types'),
-      calendar: path.resolve(__dirname, 'public/calendar/index.ts'),
+      calendar: path.resolve(__dirname, 'src/calendar/index.ts'),
     },
   },
   server: {
