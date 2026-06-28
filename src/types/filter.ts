@@ -1,7 +1,7 @@
-import type { Ability, AgeCategory, Discipline } from './calendar';
+import type { Ability, AgeGroup, Discipline } from './calendar';
 
 export interface FilterState {
   abilities?: Ability[];
-  ageCategories?: AgeCategory[];
+  ageGroups?: AgeGroup[];
   disciplines?: Discipline[];
 }

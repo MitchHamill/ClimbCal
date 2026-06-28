@@ -1,6 +1,6 @@
 export type Discipline = 'boulder' | 'lead' | 'speed';
 
-export type AgeCategory = 'open' | 'u17' | 'u19' | 'u21';
+export type AgeGroup = 'open' | 'u17' | 'u19' | 'u21';
 
 export type Ability = 'open' | 'para';
 
@@ -23,12 +23,12 @@ export interface Link {
 
 // A single discipline/round within a competition. Age and ability now live
 // here instead of on the event, so a Sukoró final and qualifier that run for
-// different age categories can sit in the same program array.
+// different age groups can sit in the same program array.
 export interface Round {
   discipline: Discipline;
   name: string;
   start: LocalDateTime;
-  age: AgeCategory;
+  age: AgeGroup;
   ability: Ability;
 }
 

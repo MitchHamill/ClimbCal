@@ -12,24 +12,19 @@ body,
   height: 100%;
 }
 
+#config {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid black;
+}
+
 #header {
-  padding: 10px;
-  background-color: antiquewhite;
+  padding: 20px 10px 10px 20px;
   z-index: 10;
 }
 
 #header h1 {
   margin: 0;
-}
-
-#main-content {
-  padding: 10px;
-  padding-bottom: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  flex: 1 1 auto;
-  min-height: 0; /* allow children to shrink and enable internal scrolling */
 }
 
 #calendar {
@@ -40,14 +35,30 @@ body,
   min-height: 0; /* allow the events pane to scroll internally */
 }
 
+details {
+  border: 1px solid grey;
+}
+summary {
+  padding: 0 1rem;
+}
+details[open] {
+  summary {
+    border-bottom: 1px dashed grey;
+  }
+}
+details .body {
+  padding: 1rem;
+  padding-top: 0;
+}
+
 @media (prefers-color-scheme: dark) {
   body {
     background-color: black;
     color: white;
   }
 
-  #header {
-    background-color: rgb(86, 85, 84);
+  #config {
+    border-bottom: 1px solid white;
   }
 }
 
@@ -55,13 +66,13 @@ body,
   #calendar {
     flex-direction: column;
   }
-  #header,
-  #main-content {
-    padding: 1px;
-  }
   #calendar,
   #main-content {
     gap: 1px;
+  }
+
+  #config {
+    flex-direction: column;
   }
 
   #months {

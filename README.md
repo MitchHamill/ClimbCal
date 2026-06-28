@@ -4,15 +4,21 @@ A simple alternative to the World Climbing Series provided calendar, that is bet
 
 ## TODO
 
-- [ ] Capture & Emit Scroll State
-  - [ ] Scroll to selected month when it changes
-  - [ ] Change selected month on scroll
-- [ ] Filters
-- [ ] Fix Selected Month Default to be month of next event
-- [ ] Collapse Info
-- [ ] Styles
-- [ ] Better README
+- [x] Capture & Emit Scroll State
+  - [x] Scroll to selected month when it changes
+  - [x] Change selected month on scroll
+- [x] Filters
+- [x] Fix Selected Month Default to be month of next event
+- [x] Collapse Info
+- [x] Styles
+- [x] Mobile View
+- [x] Disable months without events
+- [ ] Settings
+  - [ ] Timezone Select
+  - [ ] Hide Previous
 - [ ] HD Footer / Buy me a coffee link
-- [ ] Mobile View
 - [ ] Deploy
-- [ ] Disable months without events
+- [ ] Better README
+- [ ] Better Styling
+  - [ ] Chips for info (Disciplines, Age, Ability)
+  - [ ] Nicer event calendar

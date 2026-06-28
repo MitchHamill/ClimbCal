@@ -1,78 +1,16 @@
-body {
-  font-family: 'Cascadia Mono', monospace;
+body,
+input,
+button {
+  font-family: 'Roboto Mono', monospace;
 }
 
-.szh-accordion {
-  &__item {
-    &-btn {
-      cursor: pointer;
-      display: flex;
-      align-items: center;
-      padding: 15px 10px;
-      width: 100%;
-      margin: 0;
-      font-weight: 400;
-      text-align: left;
-
-      border: none;
-      background-color: transparent;
-      &:hover {
-        background-color: grey;
-      }
-    }
-
-    &-content {
-      transition: height 0.25s cubic-bezier(0, 0, 0, 1);
-      overflow: hidden;
-    }
-
-    &-panel {
-      padding: 1rem;
-      overflow: visible;
-    }
-
-    &--expanded {
-      .szh-accordion__item-btn {
-        background-color: rgb(62, 62, 62);
-      }
-    }
-  }
-
-  .accordion-header {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .accordion-button {
-    display: flex;
-    align-items: center;
-    width: 100%;
-  }
-
-  .accordion-button.expanded .chevron-down {
-    transform: rotate(180deg);
-  }
+summary {
+  list-style: none;
+  height: 100%;
+}
+summary::-webkit-details-marker {
+  display: none;
 }
 
 @media (prefers-color-scheme: dark) {
-  .szh-accordion {
-    .accordion-header {
-      color: white;
-    }
-
-    &__item {
-      &-btn {
-        &:hover {
-          background-color: grey;
-        }
-      }
-
-      &--expanded {
-        .szh-accordion__item-btn {
-          background-color: rgb(62, 62, 62);
-        }
-      }
-    }
-  }
 }

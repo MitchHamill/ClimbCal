@@ -4,7 +4,7 @@ import type {
   Link,
   Round,
   Discipline,
-  AgeCategory,
+  AgeGroup,
   Ability,
   LocalDateTime,
   IanaTimeZone,
@@ -22,7 +22,7 @@ const DISCIPLINES: ReadonlySet<Discipline> = new Set([
   'lead',
   'speed',
 ]);
-const AGES: ReadonlySet<AgeCategory> = new Set(['open', 'u17', 'u19', 'u21']);
+const AGES: ReadonlySet<AgeGroup> = new Set(['open', 'u17', 'u19', 'u21']);
 const ABILITIES: ReadonlySet<Ability> = new Set(['open', 'para']);
 const LOCAL_DATE_TIME = /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}$/;
 

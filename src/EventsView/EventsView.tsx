@@ -37,7 +37,7 @@ const EventsView: React.FC<EventsViewProps> = ({
   const eventGroupsByMonth = useMemo(() => {
     const groups = new Map<string, ClimbEvent[]>();
 
-    for (const event of filterEvents(filter)) {
+    for (const event of filterEvents(filter, false, timezone)) {
       const month = Temporal.PlainDateTime.from(event.start)
         .toZonedDateTime(timezone)
         .toLocaleString('en-US', { month: 'long' });
@@ -154,8 +154,8 @@ const EventsView: React.FC<EventsViewProps> = ({
         return Temporal.ZonedDateTime.compare(timeA, timeB);
       });
       return (
-        <>
-          <h4 key={dayKey}>{label}</h4>
+        <div key={dayKey}>
+          <h4>{label}</h4>
           {sortedRounds.map(({ name, start, age }) => (
             <div key={[name, start, age].join('-')}>
               <b>
@@ -167,7 +167,7 @@ const EventsView: React.FC<EventsViewProps> = ({
               </b>
             </div>
           ))}
-        </>
+        </div>
       );
     });
   }
@@ -186,24 +186,31 @@ const EventsView: React.FC<EventsViewProps> = ({
         (unfilteredLeg || leg).program.map((round) => round.discipline).flat(),
       );
       return (
-        <div key={leg.id}>
-          <h3>{leg.title}</h3>
-          <h5>
-            {startFormatted === endFormatted
-              ? startFormatted
-              : `${startFormatted} - ${endFormatted}`}{' '}
-            // {venue.city}, {venue.country}
-          </h5>
+        <details key={leg.id}>
+          <summary>
+            <div className="leg-summary">
+              <div className="leg-details">
+                <h5>
+                  {startFormatted === endFormatted
+                    ? startFormatted
+                    : `${startFormatted} - ${endFormatted}`}{' '}
+                  // {venue.city}, {venue.country}
+                </h5>
+                <h3>{leg.title}</h3>
+                <h5>
+                  {(['boulder', 'lead', 'speed'] as Discipline[]).every(
+                    (disc) => allDisciplines.includes(disc),
+                  )
+                    ? 'All Disciplines'
+                    : allDisciplines.join(' // ')}
+                </h5>
+              </div>
+              <img className="leg-chevron" src="chevron-down.svg" />
+            </div>
+          </summary>
 
-          <h5>
-            {(['boulder', 'lead', 'speed'] as Discipline[]).every((disc) =>
-              allDisciplines.includes(disc),
-            )
-              ? 'All Disciplines'
-              : allDisciplines.join(' // ')}
-          </h5>
-          {mapProgram(leg.program, venue.timezone)}
-        </div>
+          <div className="body">{mapProgram(leg.program, venue.timezone)}</div>
+        </details>
       );
     });
   }

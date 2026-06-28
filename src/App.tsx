@@ -8,14 +8,11 @@ import EventsView from './EventsView/EventsView';
 import Filter from './Filter/Filter';
 import calendar from 'calendar';
 import { MONTHS } from './constants';
-import { formatDateTime } from './utils';
+import { filterEvents, formatDateTime } from './utils';
 
 function App() {
   const [timezone] = useState(() => Temporal.Now.timeZoneId() as IanaTimeZone);
-  const [eventFilter, setEventFilter] = useState<FilterState>({
-    ageCategories: ['open'],
-    disciplines: ['boulder'],
-  });
+  const [eventFilter, setEventFilter] = useState<FilterState>({});
   const [selectedMonth, setSelectedMonth] = useState(() => {
     const now = Temporal.Now.instant();
 
@@ -48,30 +45,30 @@ function App() {
 
   return (
     <div id="climbcal">
-      <div id="header">
-        <h1>Climb Calendar</h1>
-        <p>Timezone: {timezone}</p>
-      </div>
-      <div id="main-content">
-        <Filter setEventFilter={setEventFilter} />
-        <div id="calendar">
-          <Months
-            selectedMonth={selectedMonth}
-            onMonthSelect={setSelectedMonth}
-            disableMonths={MONTHS.filter(
-              (m) =>
-                !calendar.some(
-                  (e) => formatDateTime(e.start, { month: 'long' }) === m,
-                ),
-            )}
-          />
-          <EventsView
-            filter={eventFilter}
-            timezone={timezone}
-            selectedMonth={selectedMonth}
-            onMonthChange={setSelectedMonth}
-          />
+      <div id="config">
+        <div id="header">
+          <h1>Climb Calendar</h1>
+          <p>Timezone: {timezone}</p>
         </div>
+        <Filter setEventFilter={setEventFilter} filterState={eventFilter} />
+      </div>
+      <div id="calendar">
+        <Months
+          selectedMonth={selectedMonth}
+          onMonthSelect={setSelectedMonth}
+          disableMonths={MONTHS.filter(
+            (m) =>
+              !filterEvents(eventFilter, false, timezone).some(
+                (e) => formatDateTime(e.start, { month: 'long' }) === m,
+              ),
+          )}
+        />
+        <EventsView
+          filter={eventFilter}
+          timezone={timezone}
+          selectedMonth={selectedMonth}
+          onMonthChange={setSelectedMonth}
+        />
       </div>
     </div>
   );

@@ -1,9 +1,8 @@
 #months {
   padding: 0.5rem 2rem;
-  border: 1px solid blue;
   display: flex;
   flex-direction: column;
-  // justify-content: center;
+  justify-content: center;
   font-size: 1.5rem;
 
   #months-container {
@@ -18,12 +17,12 @@
     cursor: pointer;
   }
   .month:not(.selected):not(.disabled):hover {
-    color: rgba(255, 0, 0, 0.433);
-    transform: scale(1.1);
+    color: rgba(108, 32, 108, 0.433);
+    transform: scale(1.2);
   }
   .month.selected {
-    color: red;
-    transform: scale(1.2);
+    color: rgb(108, 32, 108);
+    transform: scale(1.1);
     font-weight: bold;
   }
   .month.disabled {
@@ -33,6 +32,15 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  //   #months {
-  //   }
+  #months {
+    .month:not(.selected):not(.disabled):hover {
+      color: rgba(204, 25, 204, 0.6);
+      transform: scale(1.2);
+    }
+    .month.selected {
+      color: rgb(204, 25, 204);
+      transform: scale(1.1);
+      font-weight: bold;
+    }
+  }
 }

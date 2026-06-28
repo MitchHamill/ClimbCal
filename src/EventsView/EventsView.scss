@@ -1,6 +1,6 @@
 #events {
   overflow: auto;
-  border: 1px solid red;
+  // border: 1px solid red;
   flex-grow: 1;
   min-height: 0; /* required for flex children to allow scrolling */
   // padding-bottom: 100%;
@@ -13,28 +13,38 @@
     gap: 10px;
   }
 
-  .leg-header-main {
-    h3 {
-      margin: 10px;
-    }
-    h5 {
-      margin: 5px;
-      margin-left: 30px;
+  .leg-chevron {
+    width: 1.5rem;
+    margin-left: 0.5rem;
+  }
+
+  details[open] {
+    .leg-chevron {
+      transform: rotate(180deg);
     }
   }
-  .szh-accordion {
-    &__item {
-      &-heading > &-btn .chevron-down {
-        transition: transform 0.25s ease;
-      }
 
-      &-content {
-        overflow: hidden !important;
+  details {
+    .leg-chevron {
+      transition: transform 200ms;
+    }
+    summary {
+      cursor: pointer;
+    }
+    @media (hover) {
+      summary:hover {
+        background-color: rgba(255, 255, 255, 0.5);
       }
+    }
+  }
 
-      &-panel {
-        overflow: visible !important;
-      }
+  .leg-summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    h5 {
+      margin: 0;
     }
   }
   .leg {
@@ -42,6 +52,20 @@
 
     h4 {
       margin: 0;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  #events {
+    .month {
+      padding: 10px 0;
+    }
+    summary {
+      padding: 0;
+    }
+    .leg-summary {
+      padding: 10px;
     }
   }
 }
