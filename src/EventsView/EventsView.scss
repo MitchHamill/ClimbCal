@@ -3,9 +3,54 @@
   border: 1px solid red;
   flex-grow: 1;
   min-height: 0; /* required for flex children to allow scrolling */
-  .event {
+  // padding-bottom: 100%;
+
+  .month {
+    padding: 10px;
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .leg-header-main {
+    h3 {
+      margin: 10px;
+    }
+    h5 {
+      margin: 5px;
+      margin-left: 30px;
+    }
+  }
+  .szh-accordion {
+    &__item {
+      &-heading > &-btn .chevron-down {
+        transition: transform 0.25s ease;
+      }
+
+      &-content {
+        overflow: hidden !important;
+      }
+
+      &-panel {
+        overflow: visible !important;
+      }
+    }
+  }
+  .leg {
     border: 1px solid black;
-    margin: 10px;
-    padding: 5px;
+
+    h4 {
+      margin: 0;
+    }
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  #events {
+    .leg {
+      border-color: wheat;
+      color: white;
+    }
   }
 }

@@ -7,6 +7,8 @@ import type { FilterState } from 'types/filter';
 import EventsView from './EventsView/EventsView';
 import Filter from './Filter/Filter';
 import calendar from 'calendar';
+import { MONTHS } from './constants';
+import { formatDateTime } from './utils';
 
 function App() {
   const [timezone] = useState(() => Temporal.Now.timeZoneId() as IanaTimeZone);
@@ -56,6 +58,12 @@ function App() {
           <Months
             selectedMonth={selectedMonth}
             onMonthSelect={setSelectedMonth}
+            disableMonths={MONTHS.filter(
+              (m) =>
+                !calendar.some(
+                  (e) => formatDateTime(e.start, { month: 'long' }) === m,
+                ),
+            )}
           />
           <EventsView
             filter={eventFilter}

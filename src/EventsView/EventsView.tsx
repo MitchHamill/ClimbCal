@@ -11,6 +11,7 @@ import calendar from 'calendar';
 import { uniq } from 'lodash';
 import type { FilterState } from 'types/filter';
 import { useEffect, useMemo, useRef } from 'react';
+import { MONTHS } from '../constants';
 
 interface EventsViewProps {
   timezone: IanaTimeZone;
@@ -27,25 +28,11 @@ const EventsView: React.FC<EventsViewProps> = ({
 }) => {
   const containerRef = useRef<HTMLDivElement | null>(null);
   const monthRefs = useRef<Record<string, HTMLDivElement | null>>({});
-  const monthHeadingRefs = useRef<Record<string, HTMLHeadingElement | null>>(
-    {},
-  );
   const skipScrollRef = useRef(false);
-
-  const monthOrder = [
-    'January',
-    'February',
-    'March',
-    'April',
-    'May',
-    'June',
-    'July',
-    'August',
-    'September',
-    'October',
-    'November',
-    'December',
-  ];
+  const lastVisibleMonthRef = useRef<string | null>(null);
+  const isTickingRef = useRef(false);
+  const programmaticScrollRef = useRef(false);
+  const programmaticScrollTimeoutRef = useRef<number | null>(null);
 
   const eventGroupsByMonth = useMemo(() => {
     const groups = new Map<string, ClimbEvent[]>();
@@ -60,9 +47,58 @@ const EventsView: React.FC<EventsViewProps> = ({
     }
 
     return Array.from(groups.entries()).sort(([aMonth], [bMonth]) => {
-      return monthOrder.indexOf(aMonth) - monthOrder.indexOf(bMonth);
+      return MONTHS.indexOf(aMonth) - MONTHS.indexOf(bMonth);
     });
   }, [filter, timezone]);
+
+  function getTopVisibleMonth() {
+    if (!containerRef.current) return;
+    const containerRect = containerRef.current.getBoundingClientRect();
+    let nextMonthBelowTop: string | undefined;
+
+    for (const [month] of eventGroupsByMonth) {
+      const section = monthRefs.current[month];
+      if (!section) continue;
+      const rect = section.getBoundingClientRect();
+
+      if (rect.top <= containerRect.top && rect.bottom > containerRect.top) {
+        return month;
+      }
+
+      if (rect.top > containerRect.top && nextMonthBelowTop === undefined) {
+        nextMonthBelowTop = month;
+      }
+    }
+
+    return nextMonthBelowTop;
+  }
+
+  useEffect(() => {
+    const container = containerRef.current;
+    if (!container) return;
+
+    const handleScroll = () => {
+      if (programmaticScrollRef.current || isTickingRef.current) return;
+      isTickingRef.current = true;
+
+      window.requestAnimationFrame(() => {
+        const month = getTopVisibleMonth();
+        if (month && month !== lastVisibleMonthRef.current) {
+          lastVisibleMonthRef.current = month;
+          if (month !== selectedMonth) {
+            skipScrollRef.current = true;
+            onMonthChange(month);
+          }
+        }
+        isTickingRef.current = false;
+      });
+    };
+
+    container.addEventListener('scroll', handleScroll, { passive: true });
+    return () => {
+      container.removeEventListener('scroll', handleScroll);
+    };
+  }, [selectedMonth, onMonthChange, eventGroupsByMonth]);
 
   useEffect(() => {
     const target = monthRefs.current[selectedMonth];
@@ -71,40 +107,19 @@ const EventsView: React.FC<EventsViewProps> = ({
       skipScrollRef.current = false;
       return;
     }
+
+    programmaticScrollRef.current = true;
+    lastVisibleMonthRef.current = selectedMonth;
     target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+    if (programmaticScrollTimeoutRef.current) {
+      window.clearTimeout(programmaticScrollTimeoutRef.current);
+    }
+    programmaticScrollTimeoutRef.current = window.setTimeout(() => {
+      programmaticScrollRef.current = false;
+      programmaticScrollTimeoutRef.current = null;
+    }, 1200);
   }, [selectedMonth, eventGroupsByMonth]);
-
-  useEffect(() => {
-    const root = containerRef.current;
-    if (!root) return;
-
-    const observer = new IntersectionObserver(
-      (entries) => {
-        const visibleEntry = entries
-          .filter((entry) => entry.isIntersecting)
-          .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
-
-        if (!visibleEntry?.target) return;
-
-        const month = (visibleEntry.target as HTMLElement).dataset.month;
-        if (month && month !== selectedMonth) {
-          skipScrollRef.current = true;
-          onMonthChange(month);
-        }
-      },
-      {
-        root,
-        rootMargin: '-50% 0px -50% 0px',
-        threshold: [0, 0.25, 0.5, 0.75],
-      },
-    );
-
-    Object.values(monthHeadingRefs.current).forEach((heading) => {
-      if (heading) observer.observe(heading);
-    });
-
-    return () => observer.disconnect();
-  }, [onMonthChange, selectedMonth, eventGroupsByMonth]);
 
   function mapProgram(program: Round[], sourceTimezone: IanaTimeZone) {
     const dayMap = new Map<string, { label: string; rounds: Round[] }>();
@@ -139,8 +154,8 @@ const EventsView: React.FC<EventsViewProps> = ({
         return Temporal.ZonedDateTime.compare(timeA, timeB);
       });
       return (
-        <div key={dayKey}>
-          <h4>{label}</h4>
+        <>
+          <h4 key={dayKey}>{label}</h4>
           {sortedRounds.map(({ name, start, age }) => (
             <div key={[name, start, age].join('-')}>
               <b>
@@ -152,48 +167,45 @@ const EventsView: React.FC<EventsViewProps> = ({
               </b>
             </div>
           ))}
-        </div>
+        </>
       );
     });
   }
 
   function mapEvent(e: ClimbEvent) {
-    const { venue, legs, start, end } = e;
+    const { venue, legs } = e;
     const unfilteredEvent = calendar.find((ue) => ue.id === e.id);
-    const allDisciplines = uniq(
-      (unfilteredEvent?.legs || legs)
-        .map((leg) => leg.program.map((round) => round.discipline))
-        .flat(),
-    );
 
-    const startFormatted = formatDateTime(start, ddMMM);
-    const endFormatted = formatDateTime(end, ddMMM);
+    return legs.map((leg) => {
+      const { start, end } = leg;
+      const startFormatted = formatDateTime(start, ddMMM);
+      const endFormatted = formatDateTime(end, ddMMM);
 
-    return (
-      <div key={e.id} className="event">
-        <h5>
-          {startFormatted === endFormatted
-            ? startFormatted
-            : `${startFormatted} - ${endFormatted}`}
-        </h5>
-        <h2>
-          {venue.city}, {venue.country}
-        </h2>
-        <i>
-          {(['boulder', 'lead', 'speed'] as Discipline[]).every((disc) =>
-            allDisciplines.includes(disc),
-          )
-            ? 'All Disciplines'
-            : allDisciplines.join(' // ')}
-        </i>
-        {legs.map((leg) => (
-          <div key={leg.id}>
-            <h3>{leg.title}</h3>
-            {mapProgram(leg.program, venue.timezone)}
-          </div>
-        ))}
-      </div>
-    );
+      const unfilteredLeg = unfilteredEvent?.legs.find((ul) => ul.id === e.id);
+      const allDisciplines = uniq(
+        (unfilteredLeg || leg).program.map((round) => round.discipline).flat(),
+      );
+      return (
+        <div key={leg.id}>
+          <h3>{leg.title}</h3>
+          <h5>
+            {startFormatted === endFormatted
+              ? startFormatted
+              : `${startFormatted} - ${endFormatted}`}{' '}
+            // {venue.city}, {venue.country}
+          </h5>
+
+          <h5>
+            {(['boulder', 'lead', 'speed'] as Discipline[]).every((disc) =>
+              allDisciplines.includes(disc),
+            )
+              ? 'All Disciplines'
+              : allDisciplines.join(' // ')}
+          </h5>
+          {mapProgram(leg.program, venue.timezone)}
+        </div>
+      );
+    });
   }
 
   if (eventGroupsByMonth.length === 0) {
@@ -209,15 +221,8 @@ const EventsView: React.FC<EventsViewProps> = ({
             monthRefs.current[month] = section as HTMLDivElement | null;
           }}
           data-month={month}
+          className="month"
         >
-          <h3
-            ref={(heading) => {
-              monthHeadingRefs.current[month] = heading;
-            }}
-            data-month={month}
-          >
-            {month}
-          </h3>
           {events.map(mapEvent)}
         </section>
       ))}

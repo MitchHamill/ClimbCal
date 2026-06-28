@@ -50,3 +50,21 @@ body,
     background-color: rgb(86, 85, 84);
   }
 }
+
+@media (max-width: 700px) {
+  #calendar {
+    flex-direction: column;
+  }
+  #header,
+  #main-content {
+    padding: 1px;
+  }
+  #calendar,
+  #main-content {
+    gap: 1px;
+  }
+
+  #months {
+    display: none !important;
+  }
+}

@@ -15,3 +15,4 @@ A simple alternative to the World Climbing Series provided calendar, that is bet
 - [ ] HD Footer / Buy me a coffee link
 - [ ] Mobile View
 - [ ] Deploy
+- [ ] Disable months without events
