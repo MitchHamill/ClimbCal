@@ -113,9 +113,9 @@ resource "aws_cloudfront_distribution" "s3_distribution" {
     }
   }
 
-  aliases = ["climbcal.hamill.digital"]
+  aliases = ["www.worldclimbcalendar.com", "worldclimbcalendar.com"]
   viewer_certificate {
-    acm_certificate_arn      = "arn:aws:acm:us-east-1:669801353043:certificate/fe418404-57eb-4fe3-bd0d-e7f9ad2e8b5d"
+    acm_certificate_arn      = "arn:aws:acm:us-east-1:669801353043:certificate/f6388afb-500d-40f1-a495-b9cf8ea570ee"
     ssl_support_method       = "sni-only"
     minimum_protocol_version = "TLSv1.2_2019"
   }
