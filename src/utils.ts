@@ -49,6 +49,19 @@ export function filterRounds(rounds: Round[], filter: FilterState) {
     return round;
   });
 }
+
+export const isPast = (
+  endDateTime: LocalDateTime,
+  timezones: { source: IanaTimeZone; user: IanaTimeZone },
+) => {
+  const endLocal = Temporal.PlainDateTime.from(endDateTime)
+    .toZonedDateTime(timezones.source)
+    .withTimeZone(timezones.user)
+    .toInstant();
+  const nowLocal = Temporal.Now.instant();
+
+  return Temporal.Instant.compare(endLocal, nowLocal) < 0;
+};
 export function filterLegs(
   legs: Leg[],
   filter: FilterState,
@@ -57,15 +70,11 @@ export function filterLegs(
 ) {
   return legs
     .map((leg) => {
-      if (showCompleted === false) {
-        const endLocal = Temporal.PlainDateTime.from(leg.end)
-          .toZonedDateTime(timezones.venue)
-          .withTimeZone(timezones.user)
-          .toInstant();
-        const nowLocal = Temporal.Now.instant();
-
-        if (Temporal.Instant.compare(endLocal, nowLocal) < 0) return false;
-      }
+      if (
+        showCompleted === false &&
+        isPast(leg.end, { source: timezones.venue, user: timezones.user })
+      )
+        return false;
       const filteredProgram = filterRounds(leg.program, filter);
       if (!filteredProgram.length) return false;
 

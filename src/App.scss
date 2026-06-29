@@ -16,6 +16,50 @@ body,
   display: flex;
   flex-direction: row;
   border-bottom: 1px solid black;
+
+  .controls {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+
+    .settings {
+      background-color: rgba(164, 0, 179, 0.3);
+      padding: 10px;
+      border-radius: 5px;
+
+      button {
+        border: 1px solid black;
+        &[type='submit'] {
+          background-color: rgb(215, 0, 215);
+        }
+
+        &:not([type='submit']) {
+          color: purple;
+        }
+      }
+    }
+
+    .settings-btn {
+      width: 2rem;
+      height: 2rem;
+    }
+    .settings form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      .settings-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 1rem;
+
+        .label {
+          margin: 0;
+        }
+      }
+    }
+  }
 }
 
 #header {
@@ -51,10 +95,58 @@ details .body {
   padding-top: 0;
 }
 
+#footer {
+  padding: 10px 1rem;
+  border-top: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  p {
+    margin: 0;
+  }
+
+  a {
+    color: rgb(164, 0, 179);
+  }
+}
+
 @media (prefers-color-scheme: dark) {
   body {
     background-color: black;
     color: white;
+  }
+
+  #config .controls .settings {
+    background-color: rgb(152, 0, 152);
+  }
+
+  #config {
+    .controls {
+      .settings {
+        button {
+          border-radius: 5px;
+          border-color: white;
+
+          &[type='submit'] {
+            color: white;
+            background-color: purple;
+          }
+
+          &:not([type='submit']) {
+            color: purple;
+          }
+        }
+      }
+    }
+  }
+
+  #footer {
+    border-color: white;
+
+    a {
+      color: rgb(233, 0, 254);
+    }
   }
 
   #config {
@@ -71,11 +163,45 @@ details .body {
     gap: 1px;
   }
 
+  #header {
+    padding: 20px;
+    padding-bottom: 5px;
+    p {
+      margin: 10px 0;
+    }
+  }
+
   #config {
     flex-direction: column;
+    .controls {
+      justify-content: space-between;
+
+      .settings {
+        flex: 1;
+
+        select {
+          border-radius: 2px;
+          font-size: 0.7rem;
+        }
+
+        button {
+          font-size: 0.8rem;
+          border-radius: 3px;
+          padding: 7px 15px;
+        }
+      }
+    }
   }
 
   #months {
     display: none !important;
+  }
+
+  #footer {
+    padding: 1rem;
+    p,
+    a {
+      font-size: 0.8rem;
+    }
   }
 }

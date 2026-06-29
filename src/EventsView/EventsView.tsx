@@ -6,23 +6,23 @@ import type {
 } from 'types/calendar';
 import './EventsView.scss';
 import { Temporal } from '@js-temporal/polyfill';
-import { ddMMM, filterEvents, formatDateTime, hhmm } from '../utils';
+import { ddMMM, formatDateTime, hhmm, isPast } from '../utils';
 import calendar from 'calendar';
 import { uniq } from 'lodash';
-import type { FilterState } from 'types/filter';
 import { useEffect, useMemo, useRef } from 'react';
 import { MONTHS } from '../constants';
+import { ChevronDown } from '../Icons';
 
 interface EventsViewProps {
+  events: ClimbEvent[];
   timezone: IanaTimeZone;
-  filter: FilterState;
   selectedMonth: string;
   onMonthChange: (month: string) => void;
 }
 
 const EventsView: React.FC<EventsViewProps> = ({
+  events,
   timezone,
-  filter,
   selectedMonth,
   onMonthChange,
 }) => {
@@ -37,7 +37,7 @@ const EventsView: React.FC<EventsViewProps> = ({
   const eventGroupsByMonth = useMemo(() => {
     const groups = new Map<string, ClimbEvent[]>();
 
-    for (const event of filterEvents(filter, false, timezone)) {
+    for (const event of events) {
       const month = Temporal.PlainDateTime.from(event.start)
         .toZonedDateTime(timezone)
         .toLocaleString('en-US', { month: 'long' });
@@ -49,7 +49,7 @@ const EventsView: React.FC<EventsViewProps> = ({
     return Array.from(groups.entries()).sort(([aMonth], [bMonth]) => {
       return MONTHS.indexOf(aMonth) - MONTHS.indexOf(bMonth);
     });
-  }, [filter, timezone]);
+  }, [events, timezone]);
 
   function getTopVisibleMonth() {
     if (!containerRef.current) return;
@@ -178,6 +178,7 @@ const EventsView: React.FC<EventsViewProps> = ({
 
     return legs.map((leg) => {
       const { start, end } = leg;
+      const completed = isPast(end, { source: venue.timezone, user: timezone });
       const startFormatted = formatDateTime(start, ddMMM);
       const endFormatted = formatDateTime(end, ddMMM);
 
@@ -188,7 +189,7 @@ const EventsView: React.FC<EventsViewProps> = ({
       return (
         <details key={leg.id}>
           <summary>
-            <div className="leg-summary">
+            <div className={'leg-summary' + (completed ? ' completed' : '')}>
               <div className="leg-details">
                 <h5>
                   {startFormatted === endFormatted
@@ -205,7 +206,7 @@ const EventsView: React.FC<EventsViewProps> = ({
                     : allDisciplines.join(' // ')}
                 </h5>
               </div>
-              <img className="leg-chevron" src="chevron-down.svg" />
+              <ChevronDown className="leg-chevron" size="1rem" />
             </div>
           </summary>
 
