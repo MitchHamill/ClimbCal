@@ -13,11 +13,11 @@ A simple alternative to the World Climbing Series provided calendar, that is bet
 - [x] Styles
 - [x] Mobile View
 - [x] Disable months without events
+- [x] Deploy
 - [ ] Settings
   - [ ] Timezone Select
   - [ ] Hide Previous
 - [ ] HD Footer / Buy me a coffee link
-- [ ] Deploy
 - [ ] Better README
 - [ ] Better Styling
   - [ ] Chips for info (Disciplines, Age, Ability)

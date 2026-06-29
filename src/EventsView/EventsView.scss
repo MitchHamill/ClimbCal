@@ -1,9 +1,7 @@
 #events {
   overflow: auto;
-  // border: 1px solid red;
   flex-grow: 1;
   min-height: 0; /* required for flex children to allow scrolling */
-  // padding-bottom: 100%;
 
   .month {
     padding: 10px;
