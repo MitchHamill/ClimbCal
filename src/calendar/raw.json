@@ -245,28 +245,28 @@
         "program": [
           {
             "discipline": "boulder",
-            "name": "Boulder Qualification",
+            "name": "U17 Boulder Qualification",
             "start": "2026-04-18T08:30:00",
             "age": "u17",
             "ability": "open"
           },
           {
             "discipline": "boulder",
-            "name": "Boulder Qualification",
+            "name": "U19 Boulder Qualification",
             "start": "2026-04-18T15:30:00",
             "age": "u19",
             "ability": "open"
           },
           {
             "discipline": "boulder",
-            "name": "Boulder Final",
+            "name": "U17 Boulder Final",
             "start": "2026-04-19T10:10:00",
             "age": "u17",
             "ability": "open"
           },
           {
             "discipline": "boulder",
-            "name": "Boulder Final",
+            "name": "U19 Boulder Final",
             "start": "2026-04-19T12:30:00",
             "age": "u19",
             "ability": "open"
@@ -528,28 +528,28 @@
         "program": [
           {
             "discipline": "boulder",
-            "name": "Boulder Qualification",
+            "name": "U17 Boulder Qualification",
             "start": "2026-05-09T08:30:00",
             "age": "u17",
             "ability": "open"
           },
           {
             "discipline": "boulder",
-            "name": "Boulder Qualification",
+            "name": "U19 Boulder Qualification",
             "start": "2026-05-09T16:00:00",
             "age": "u19",
             "ability": "open"
           },
           {
             "discipline": "boulder",
-            "name": "Boulder Final",
+            "name": "U17 Boulder Final",
             "start": "2026-05-10T10:00:00",
             "age": "u17",
             "ability": "open"
           },
           {
             "discipline": "boulder",
-            "name": "Boulder Final",
+            "name": "U19 Boulder Final",
             "start": "2026-05-10T13:30:00",
             "age": "u19",
             "ability": "open"
@@ -991,63 +991,63 @@
         "program": [
           {
             "discipline": "boulder",
-            "name": "Boulder Qualification",
+            "name": "U17 Boulder Qualification",
             "start": "2026-06-11T13:00:00",
             "age": "u17",
             "ability": "open"
           },
           {
             "discipline": "boulder",
-            "name": "Boulder Qualification",
+            "name": "U19 Boulder Qualification",
             "start": "2026-06-12T09:00:00",
             "age": "u19",
             "ability": "open"
           },
           {
             "discipline": "boulder",
-            "name": "Boulder Qualification",
+            "name": "U21 Boulder Qualification",
             "start": "2026-06-12T16:30:00",
             "age": "u21",
             "ability": "open"
           },
           {
             "discipline": "boulder",
-            "name": "Boulder Semi-final",
+            "name": "U17 Boulder Semi-final",
             "start": "2026-06-13T09:00:00",
             "age": "u17",
             "ability": "open"
           },
           {
             "discipline": "boulder",
-            "name": "Boulder Semi-final",
+            "name": "U19 Boulder Semi-final",
             "start": "2026-06-13T13:35:00",
             "age": "u19",
             "ability": "open"
           },
           {
             "discipline": "boulder",
-            "name": "Boulder Semi-final",
+            "name": "U21 Boulder Semi-final",
             "start": "2026-06-13T17:00:00",
             "age": "u21",
             "ability": "open"
           },
           {
             "discipline": "boulder",
-            "name": "Boulder Final",
+            "name": "U17 Boulder Final",
             "start": "2026-06-14T09:00:00",
             "age": "u17",
             "ability": "open"
           },
           {
             "discipline": "boulder",
-            "name": "Boulder Final",
+            "name": "U19 Boulder Final",
             "start": "2026-06-14T13:05:00",
             "age": "u19",
             "ability": "open"
           },
           {
             "discipline": "boulder",
-            "name": "Boulder Final",
+            "name": "U21 Boulder Final",
             "start": "2026-06-14T16:00:00",
             "age": "u21",
             "ability": "open"
@@ -1088,35 +1088,35 @@
         "program": [
           {
             "discipline": "speed",
-            "name": "Speed Qualification",
+            "name": "U17 Speed Qualification",
             "start": "2026-06-13T14:00:00",
             "age": "u17",
             "ability": "open"
           },
           {
             "discipline": "speed",
-            "name": "Speed Qualification",
+            "name": "U19 Speed Qualification",
             "start": "2026-06-13T14:00:00",
             "age": "u19",
             "ability": "open"
           },
           {
             "discipline": "speed",
-            "name": "Speed Qualification",
+            "name": "U21 Speed Qualification",
             "start": "2026-06-13T14:00:00",
             "age": "u21",
             "ability": "open"
           },
           {
             "discipline": "speed",
-            "name": "Speed Final",
+            "name": "U17 Speed Final",
             "start": "2026-06-13T17:30:00",
             "age": "u17",
             "ability": "open"
           },
           {
             "discipline": "speed",
-            "name": "Speed Final",
+            "name": "U19 Speed Final",
             "start": "2026-06-13T17:30:00",
             "age": "u19",
             "ability": "open"
@@ -1124,7 +1124,7 @@
           {
             "discipline": "speed",
             "name": "Speed Final",
-            "start": "2026-06-13T17:30:00",
+            "start": "U21 2026-06-13T17:30:00",
             "age": "u21",
             "ability": "open"
           }
@@ -1423,28 +1423,28 @@
         "program": [
           {
             "discipline": "lead",
-            "name": "Lead Qualification",
+            "name": "U17 Lead Qualification",
             "start": "2026-07-04T09:00:00",
             "age": "u17",
             "ability": "open"
           },
           {
             "discipline": "lead",
-            "name": "Lead Qualification",
+            "name": "U19 Lead Qualification",
             "start": "2026-07-04T15:00:00",
             "age": "u19",
             "ability": "open"
           },
           {
             "discipline": "lead",
-            "name": "Lead Final",
+            "name": "U17 Lead Final",
             "start": "2026-07-05T10:00:00",
             "age": "u17",
             "ability": "open"
           },
           {
             "discipline": "lead",
-            "name": "Lead Final",
+            "name": "U19 Lead Final",
             "start": "2026-07-05T11:30:00",
             "age": "u19",
             "ability": "open"
@@ -1666,112 +1666,112 @@
         "program": [
           {
             "discipline": "lead",
-            "name": "Women's & Men's Lead Qualification",
+            "name": "U17 Women's & Men's Lead Qualification",
             "start": "2026-07-18T11:00:00",
             "age": "u17",
             "ability": "open"
           },
           {
             "discipline": "lead",
-            "name": "Women's & Men's Lead Qualification",
+            "name": "U19 Women's & Men's Lead Qualification",
             "start": "2026-07-19T11:00:00",
             "age": "u19",
             "ability": "open"
           },
           {
             "discipline": "lead",
-            "name": "Women's & Men's Lead Semi-final",
+            "name": "U17 Women's & Men's Lead Semi-final",
             "start": "2026-07-20T09:00:00",
             "age": "u17",
             "ability": "open"
           },
           {
             "discipline": "lead",
-            "name": "Women's & Men's Lead Semi-final",
+            "name": "U19 Women's & Men's Lead Semi-final",
             "start": "2026-07-20T14:00:00",
             "age": "u19",
             "ability": "open"
           },
           {
             "discipline": "lead",
-            "name": "Women's & Men's Lead Final",
+            "name": "U17 Women's & Men's Lead Final",
             "start": "2026-07-20T20:00:00",
             "age": "u17",
             "ability": "open"
           },
           {
             "discipline": "lead",
-            "name": "Women's & Men's Lead Final",
+            "name": "U19 Women's & Men's Lead Final",
             "start": "2026-07-20T21:00:00",
             "age": "u19",
             "ability": "open"
           },
           {
             "discipline": "speed",
-            "name": "Women's & Men's Speed Qualification",
+            "name": "U17 Women's & Men's Speed Qualification",
             "start": "2026-07-21T11:00:00",
             "age": "u17",
             "ability": "open"
           },
           {
             "discipline": "speed",
-            "name": "Women's & Men's Speed Qualification",
+            "name": "U19 Women's & Men's Speed Qualification",
             "start": "2026-07-21T17:15:00",
             "age": "u19",
             "ability": "open"
           },
           {
             "discipline": "speed",
-            "name": "Women's & Men's Speed Final",
+            "name": "U17 Women's & Men's Speed Final",
             "start": "2026-07-21T20:30:00",
             "age": "u17",
             "ability": "open"
           },
           {
             "discipline": "speed",
-            "name": "Women's & Men's Speed Final",
+            "name": "U19 Women's & Men's Speed Final",
             "start": "2026-07-21T21:30:00",
             "age": "u19",
             "ability": "open"
           },
           {
             "discipline": "boulder",
-            "name": "Women's & Men's Boulder Qualification",
+            "name": "U17 Women's & Men's Boulder Qualification",
             "start": "2026-07-22T10:00:00",
             "age": "u17",
             "ability": "open"
           },
           {
             "discipline": "boulder",
-            "name": "Women's & Men's Boulder Qualification",
+            "name": "U19 Women's & Men's Boulder Qualification",
             "start": "2026-07-23T10:00:00",
             "age": "u19",
             "ability": "open"
           },
           {
             "discipline": "boulder",
-            "name": "Women's & Men's Boulder Semi-final",
+            "name": "U17 Women's & Men's Boulder Semi-final",
             "start": "2026-07-24T09:00:00",
             "age": "u17",
             "ability": "open"
           },
           {
             "discipline": "boulder",
-            "name": "Women's & Men's Boulder Final",
+            "name": "U17 Women's & Men's Boulder Final",
             "start": "2026-07-24T18:00:00",
             "age": "u17",
             "ability": "open"
           },
           {
             "discipline": "boulder",
-            "name": "Women's & Men's Boulder Semi-final",
+            "name": "U19 Women's & Men's Boulder Semi-final",
             "start": "2026-07-25T09:00:00",
             "age": "u19",
             "ability": "open"
           },
           {
             "discipline": "boulder",
-            "name": "Women's & Men's Boulder Final",
+            "name": "U19 Women's & Men's Boulder Final",
             "start": "2026-07-25T18:00:00",
             "age": "u19",
             "ability": "open"
@@ -1909,14 +1909,14 @@
         "program": [
           {
             "discipline": "speed",
-            "name": "Speed Qualification",
+            "name": "U17 Speed Qualification",
             "start": "2026-08-01T12:00:00",
             "age": "u17",
             "ability": "open"
           },
           {
             "discipline": "speed",
-            "name": "Speed Qualification",
+            "name": "U 19 Speed Qualification",
             "start": "2026-08-01T13:00:00",
             "age": "u19",
             "ability": "open"
@@ -1924,13 +1924,13 @@
           {
             "discipline": "speed",
             "name": "Speed Final",
-            "start": "2026-08-01T15:00:00",
+            "start": "U17 2026-08-01T15:00:00",
             "age": "u17",
             "ability": "open"
           },
           {
             "discipline": "speed",
-            "name": "Speed Final",
+            "name": "U19 Speed Final",
             "start": "2026-08-01T15:00:00",
             "age": "u19",
             "ability": "open"
@@ -2417,56 +2417,56 @@
         "program": [
           {
             "discipline": "speed",
-            "name": "Speed Qualification",
+            "name": "U17 Speed Qualification",
             "start": "2026-09-04T15:00:00",
             "age": "u17",
             "ability": "open"
           },
           {
             "discipline": "speed",
-            "name": "Speed Qualification",
+            "name": "U19 Speed Qualification",
             "start": "2026-09-04T15:00:00",
             "age": "u19",
             "ability": "open"
           },
           {
             "discipline": "speed",
-            "name": "Speed Final",
+            "name": "U17 Speed Final",
             "start": "2026-09-04T17:00:00",
             "age": "u17",
             "ability": "open"
           },
           {
             "discipline": "speed",
-            "name": "Speed Final",
+            "name": "U19 Speed Final",
             "start": "2026-09-04T17:00:00",
             "age": "u19",
             "ability": "open"
           },
           {
             "discipline": "lead",
-            "name": "Lead Qualification",
+            "name": "U17 Lead Qualification",
             "start": "2026-09-05T09:00:00",
             "age": "u17",
             "ability": "open"
           },
           {
             "discipline": "lead",
-            "name": "Lead Qualification",
+            "name": "U19 Lead Qualification",
             "start": "2026-09-05T15:00:00",
             "age": "u19",
             "ability": "open"
           },
           {
             "discipline": "lead",
-            "name": "Lead Final",
+            "name": "U17 Lead Final",
             "start": "2026-09-06T11:00:00",
             "age": "u17",
             "ability": "open"
           },
           {
             "discipline": "lead",
-            "name": "Lead Final",
+            "name": "U19 Lead Final",
             "start": "2026-09-06T12:30:00",
             "age": "u19",
             "ability": "open"
