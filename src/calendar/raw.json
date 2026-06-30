@@ -1123,8 +1123,8 @@
           },
           {
             "discipline": "speed",
-            "name": "Speed Final",
-            "start": "U21 2026-06-13T17:30:00",
+            "name": "U21 Speed Final",
+            "start": "2026-06-13T17:30:00",
             "age": "u21",
             "ability": "open"
           }
@@ -1916,15 +1916,15 @@
           },
           {
             "discipline": "speed",
-            "name": "U 19 Speed Qualification",
+            "name": "U19 Speed Qualification",
             "start": "2026-08-01T13:00:00",
             "age": "u19",
             "ability": "open"
           },
           {
             "discipline": "speed",
-            "name": "Speed Final",
-            "start": "U17 2026-08-01T15:00:00",
+            "name": "U17 Speed Final",
+            "start": "2026-08-01T15:00:00",
             "age": "u17",
             "ability": "open"
           },
