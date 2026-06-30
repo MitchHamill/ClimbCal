@@ -217,7 +217,11 @@ const EventsView: React.FC<EventsViewProps> = ({
   }
 
   if (eventGroupsByMonth.length === 0) {
-    return <div id="events">No events match the current filter.</div>;
+    return (
+      <div id="events" style={{ padding: '1rem' }}>
+        No events match the current filter.
+      </div>
+    );
   }
 
   return (

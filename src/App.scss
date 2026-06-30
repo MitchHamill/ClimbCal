@@ -29,6 +29,8 @@ body,
       border-radius: 5px;
 
       button {
+        border-radius: 5px;
+        padding: 3px 10px;
         border: 1px solid black;
         &[type='submit'] {
           background-color: rgb(215, 0, 215);
@@ -82,9 +84,7 @@ body,
 details {
   border: 1px solid grey;
 }
-summary {
-  padding: 0 1rem;
-}
+
 details[open] {
   summary {
     border-bottom: 1px dashed grey;
@@ -125,7 +125,6 @@ details .body {
     .controls {
       .settings {
         button {
-          border-radius: 5px;
           border-color: white;
 
           &[type='submit'] {
@@ -154,7 +153,7 @@ details .body {
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 768px) {
   #calendar {
     flex-direction: column;
   }
@@ -168,6 +167,10 @@ details .body {
     padding-bottom: 5px;
     p {
       margin: 10px 0;
+    }
+
+    h1 {
+      font-size: 1.5rem;
     }
   }
 
@@ -185,6 +188,7 @@ details .body {
         }
 
         button {
+          border-radius: 5px;
           font-size: 0.8rem;
           border-radius: 3px;
           padding: 7px 15px;

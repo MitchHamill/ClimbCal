@@ -45,13 +45,11 @@ function App() {
         month: 'long',
       });
   });
-  const [showCompleted, setShowCompleted] = useState(true);
+  const [showCompleted, setShowCompleted] = useState(false);
   const [showSettings, setShowSettings] = useState(false);
 
   const changeSettings: React.SubmitEventHandler<HTMLFormElement> = (e) => {
-    // Prevent the browser from reloading the page
     e.preventDefault();
-    // Read the form data
     const form = e.target;
     const { selectedTz, showPrev } = Object.fromEntries(
       new FormData(form).entries(),
@@ -74,7 +72,7 @@ function App() {
     <div id="climbcal">
       <div id="config">
         <div id="header">
-          <h1>Climb Calendar</h1>
+          <h1>World Climbing Calendar</h1>
           <div className="controls">
             {!showSettings ? (
               <>
@@ -136,9 +134,7 @@ function App() {
       </div>
       <div id="footer">
         <div id="hd-brief">
-          <p>
-            A <a href="https://hamill.digital">hamill.digital</a> solution
-          </p>
+          <a href="https://hamill.digital">hamill.digital</a>
         </div>
         <div id="donate">
           <a href="https://buymeacoffee.com/mitchhamill">Buy me a coffee</a>

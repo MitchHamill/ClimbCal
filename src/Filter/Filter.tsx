@@ -2,6 +2,7 @@ import type { FilterState } from 'types/filter';
 import './Filter.scss';
 import type { AgeGroup, Ability, Discipline } from 'types/calendar';
 import { useEffect, useState } from 'react';
+import { ChevronDown } from '../Icons';
 
 interface FilterProps {
   setEventFilter: React.Dispatch<React.SetStateAction<FilterState>>;
@@ -85,6 +86,14 @@ const Filter: React.FC<FilterProps> = ({
     return groups.length ? groups : undefined;
   });
 
+  const [width, setWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handler = () => setWidth(window.innerWidth);
+    window.addEventListener('resize', handler);
+    return () => window.removeEventListener('resize', handler);
+  }, []);
+
   useEffect(() => {
     setEventFilter({
       disciplines: selectedDisciplines,
@@ -126,7 +135,7 @@ const Filter: React.FC<FilterProps> = ({
     },
   ];
 
-  return (
+  const Filters = (
     <div id="filters">
       {filterConfigs.map(({ label, setter, selected, opts }, i) => (
         <div key={'filter-sect-' + i} className="filter-section">
@@ -148,6 +157,20 @@ const Filter: React.FC<FilterProps> = ({
         </div>
       ))}
     </div>
+  );
+
+  return width < 768 ? (
+    <details id="filter-accordion">
+      <summary>
+        <div id="filter-acc-label">
+          <p>filter</p>
+          <ChevronDown className="filter-chevron" size="1rem" />
+        </div>
+      </summary>
+      {Filters}
+    </details>
+  ) : (
+    Filters
   );
 };
 

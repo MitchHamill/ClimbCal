@@ -1,9 +1,36 @@
+details#filter-accordion {
+  border-bottom: 0px;
+
+  #filter-acc-label {
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: small;
+    cursor: pointer;
+
+    @media (hover) {
+      &:hover {
+        background-color: grey;
+      }
+    }
+
+    .filter-chevron {
+      transition: transform 200ms;
+    }
+  }
+
+  &[open] {
+    #filter-acc-label .filter-chevron {
+      transform: rotate(180deg);
+    }
+  }
+}
+
 #filters {
   flex: 1;
   padding: 8px;
-  position: sticky;
-  top: 0;
-  z-index: 2;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -38,7 +65,7 @@
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 768px) {
   #filters {
     flex-direction: column;
     gap: 5px;
