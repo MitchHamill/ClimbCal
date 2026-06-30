@@ -69,8 +69,21 @@ body,
   z-index: 10;
 }
 
+.header-content {
+  max-width: 30rem;
+
+  p {
+    font-size: small;
+  }
+}
+
 #header h1 {
   margin: 0;
+}
+
+#header p {
+  margin: 0.5rem 0 0;
+  line-height: 1.5;
 }
 
 #calendar {
@@ -169,6 +182,12 @@ details .body {
       margin: 10px 0;
     }
 
+    .header-content {
+      p {
+        margin: 0;
+        font-size: 10px;
+      }
+    }
     h1 {
       font-size: 1.5rem;
     }

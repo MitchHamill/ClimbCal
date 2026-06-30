@@ -69,10 +69,16 @@ function App() {
   );
 
   return (
-    <div id="climbcal">
+    <main id="climbcal" aria-labelledby="page-title">
       <div id="config">
         <div id="header">
-          <h1>World Climbing Calendar</h1>
+          <div className="header-content">
+            <h1 id="page-title">World Climbing Calendar</h1>
+            <p>
+              Browse upcoming IFSC climbing events and view them in your local
+              timezone.
+            </p>
+          </div>
           <div className="controls">
             {!showSettings ? (
               <>
@@ -140,7 +146,7 @@ function App() {
           <a href="https://buymeacoffee.com/mitchhamill">Buy me a coffee</a>
         </div>
       </div>
-    </div>
+    </main>
   );
 }
 

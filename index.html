@@ -2,8 +2,40 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="World Climbing Calendar helps you browse upcoming IFSC climbing events and view them in your preferred timezone."
+    />
+    <meta
+      name="keywords"
+      content="IFSC calendar, climbing events, competition schedule, world climbing calendar, climbing timetable"
+    />
+    <meta name="robots" content="index,follow" />
+    <meta name="theme-color" content="#a400b3" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta
+      property="og:title"
+      content="World Climbing Calendar | IFSC Event Schedule"
+    />
+    <meta
+      property="og:description"
+      content="Browse upcoming IFSC climbing events and view them in your local timezone with filters for month, status, and venue."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/og-image.svg" />
+    <meta property="og:site_name" content="World Climbing Calendar" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="/og-image.svg" />
+    <meta
+      name="twitter:title"
+      content="World Climbing Calendar | IFSC Event Schedule"
+    />
+    <meta
+      name="twitter:description"
+      content="Browse upcoming IFSC climbing events and view them in your local timezone."
+    />
+    <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -11,7 +43,19 @@
       rel="stylesheet"
     />
 
-    <title>climbcal</title>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "World Climbing Calendar",
+        "description": "Browse upcoming IFSC climbing events and view them in your local timezone with filters for discipline and status.",
+        "applicationCategory": "SportsApplication",
+        "genre": "Sports",
+        "operatingSystem": "All"
+      }
+    </script>
+
+    <title>World Climbing Calendar</title>
   </head>
   <body>
     <div id="root"></div>
